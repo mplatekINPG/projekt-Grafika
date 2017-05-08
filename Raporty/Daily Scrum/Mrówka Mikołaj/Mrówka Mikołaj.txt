@@ -1,0 +1,3 @@
+08-05-2017
+Dzisiaj - Uzupe³nia³em Wiki projektu
+Plan na jutro - Jutro zmierzam siêgn¹æ do Ÿróde³ traktuj¹cych o procesowaniu obrazu w C++ (Prata, Symfonia C++, Internet), aby dowiedzieæ siê wiêcej o projekcie.
