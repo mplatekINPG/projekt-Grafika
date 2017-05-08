@@ -1,0 +1,2 @@
+1. opracowanie algorytmu funkcji wczytywania obrazu do programu - Filip
+2. opracowanie algorytmu nak³adania filtra - Miko³aj, Kamil, Radek, Mateusz
