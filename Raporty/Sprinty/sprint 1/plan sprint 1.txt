@@ -1,2 +1,2 @@
 1. nauka wymaganych mo¿liwoœci cpp przez wszystkich cz³onków zespo³u
-
+2. wybór biblioteki do pracy
