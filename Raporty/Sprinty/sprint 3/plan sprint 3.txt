@@ -1,0 +1,6 @@
+1. implementacja wczytywania obrazu do programu - Filip
+2. implementacja algorytmu filtra " " - Miko³aj
+2. implementacja algorytmu filtra " " - Kamil
+3. implementacja algorytmu filtra " " - Radek
+4. implementacja algorytmu filtra " " - Mateusz
+
