@@ -1,2 +1,4 @@
 08.05.2017
 	Stworzenie planu dzia³ania, oraz podzia³ obowi¹zków, zapoznanie siê z typami filtrów; jeden wybiorê do stworzenia.
+09.05.2017
+	Zapoznanie siê z istot¹ filtru górnoprzepustowego, wzmacniaj¹cego elementy o wysokiej czêstotliwoœci.
