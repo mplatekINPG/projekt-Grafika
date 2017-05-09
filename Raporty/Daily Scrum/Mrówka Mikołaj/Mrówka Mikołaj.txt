@@ -1,3 +1,6 @@
 08-05-2017
 Dzisiaj - Uzupe³nia³em Wiki projektu
 Plan na jutro - Jutro zmierzam siêgn¹æ do Ÿróde³ traktuj¹cych o procesowaniu obrazu w C++ (Prata, Symfonia C++, Internet), aby dowiedzieæ siê wiêcej o projekcie.
+09-05-2017
+Dzisiaj - Przeczyta³em w "Jêzyk C++" Stephena Praty rozdzia³ traktuj¹cy o klasach dotycz¹cych obrazków.
+Plan na jutro - Planujê dalej przegl¹daæ Ÿród³a, aby poszerzyæ swoj¹ wiedzê i przeczytaæ o dostêpnych bibliotekach do C++ umo¿liwiaj¹cych dzia³ania na obrazkach.
