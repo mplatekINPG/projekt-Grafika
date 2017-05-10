@@ -2,3 +2,5 @@
 Jutro bêdê doszliwowywa³ repozytorium projektu oraz uczy³ siê jêzyka C++.
 	2017-05-09
 Wczoraj pomaga³em tworzyæ repozytorium projektu, dzisiaj doszliwowa³em repozytorium oraz nauczy³em siê typów mieszanych, jutro bêdê kontynuowa³ naukê jêzyka.
+	2017-05-10
+Wczoraj zrobi³em to co planowa³em, dziœ bêdê kontynuowa³ naukê C++, jutro poczytam na temat klas.
