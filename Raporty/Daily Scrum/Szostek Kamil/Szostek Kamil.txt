@@ -5,3 +5,7 @@ Jutro nadal bêdê uczy³ siê programowania w C++.
 09.05.2017 
 Dziœ bêdê uczy³ siê programowania w C++.
 Juro trzeci dzieñ z rzêdu bêdê uczy³ siê programowania w C++.
+
+10.05.2017 
+Dzisiaj po raz kolejny bêdê uczy³ siê programowania w C++.
+Jutro przejrzê przyk³adowe kody Ÿród³owe podobnych programów aby lepiej zaznajomiæ siê z tematem oraz pod³apaæ ciekawe pomys³y.
