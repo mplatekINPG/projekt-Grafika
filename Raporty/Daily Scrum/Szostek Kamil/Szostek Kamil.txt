@@ -9,3 +9,7 @@ Juro trzeci dzieñ z rzêdu bêdê uczy³ siê programowania w C++.
 10.05.2017 
 Dzisiaj po raz kolejny bêdê uczy³ siê programowania w C++.
 Jutro przejrzê przyk³adowe kody Ÿród³owe podobnych programów aby lepiej zaznajomiæ siê z tematem oraz pod³apaæ ciekawe pomys³y.
+
+11.09.2017
+Dzisiaj bêdê przegl¹da³ przyk³adowe kody Ÿród³owe podobnych programów aby lepiej zaznajomiæ siê z tematem oraz pod³apaæ ciekawe pomys³y.
+Jutro bêdê uk³ada³ w g³owie konstrukcjê przydzielonej mi funkcji obrabiaj¹cej obraz.
