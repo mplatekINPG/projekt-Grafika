@@ -1,2 +1,8 @@
+	10-05-2017	
+Znalaz³em bibliotekê openCV. Dzisiaj muszê sie z ni¹ lepiej zaznajomiæ.
+	09-05-2017
+Niektórzy ci¹gle maj¹ problemy z gitem, które trzeba na bie¿¹co rozwi¹zywaæ. Dzisiaj zaczynam szukaæ informacji 
+o odpowiedniej bilbiotece cpp.
+
 	08-05-2017
 Dzisiaj trzeba zaplanowac sprinty i rozpisaæ zadania na ca³y projekt.
