@@ -1,1 +1,7 @@
 http://forbot.pl/blog/artykuly/programowanie/opencv-1-pierwsze-kroki-id4854
+
+To wa¿ne \/
+http://docs.opencv.org/2.4.13.2/doc/user_guide/ug_mat.html
+
+
+http://stackoverflow.com/questions/23001512/c-and-opencv-get-and-set-pixel-color-to-mat
