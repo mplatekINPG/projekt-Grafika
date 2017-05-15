@@ -8,3 +8,5 @@ Wczoraj zrobiłem to co planowałem, dziś będę kontynuował naukę C++, jutro
 Wczoraj udało mi się zrealizować plany, dziś dowiedziałem się czym są klasy, jutro będę dalej uczył się c++.
         2017-05-11
 Wczoraj zrealizowałem plany, dziś będę uczył się polimorfizmu, jutro poczytam na temat dziedziczenia.
+	2017-05-12
+Wczoraj dokończyłem naukę języka, dzisiaj przejmę obowiązki scrum mastera i zacznę wprowadzać funkcję wczytywania obrazu.
