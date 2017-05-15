@@ -1,0 +1,8 @@
+Za³ozenia sprintu zosta³y wykonane. Zespó³ opanowa³ podstawowe, wymagane umiejêtnoœci do napisania programu
+projektowego. 
+Zespól postanowi³ jednog³oœnie o wyborze biblioteki OpenCV do realizacji projektu. Jest to biblioteka open-sourcowa.
+Pobraæ j¹ mo¿na ze strony "http://opencv.org/". ¯eby jej u¿ywaæ, w projekcie wystarczy zamieœciæ odpowiedni¹ adnotacjê.
+W ramach tego pliku zawarte s¹ funkcje pozwalajace na wczytanie, otwarcie i zapis obrazu w ró¿nych formatach. Dodatkowo
+zawiera niektóre podstawowe filtry graficzne oraz szablony na kolejne. 
+Organizacja scrumowa w czasie trwania sprintu przzebiega³a w porz¹dku. Drobne problemy z repozytorium zosta³y szybko 
+rozwi¹zane, cz³onkowie pilnowali siê wzajemnie w sprawie daily scrumów. 
