@@ -7,3 +7,6 @@ Plan na jutro - Planujê dalej przegl¹daæ Ÿród³a, aby poszerzyæ swoj¹ wiedzê i pr
 10-05-2017 
 Dzisiaj - Zapozna³em siê z niktórymi bibliotekami umo¿lwiaj¹cymi obróbkê obrazu w C++
 Plan na jutro - Planujê zapoznaæ siê z algorytmami nak³adania filtrów uœredniaj¹cych i wyostrzaj¹cych
+11-05-2017
+Dzisiaj - Zapozna³em siê z algorytmami nak³adania filtrów.
+Plan na jutro - Planujê dalej pracowaæ nad metodami wykorzystania bibliotek open source do obróbki obrazu

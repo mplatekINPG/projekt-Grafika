@@ -1,6 +1,10 @@
 	2017-05-08 
-Jutro bêdê doszliwowywa³ repozytorium projektu oraz uczy³ siê jêzyka C++.
+Jutro bÄ™dÄ™ doszliwowywaÅ‚ repozytorium projektu oraz uczyÅ‚ siÄ™ jÄ™zyka C++.
 	2017-05-09
-Wczoraj pomaga³em tworzyæ repozytorium projektu, dzisiaj doszliwowa³em repozytorium oraz nauczy³em siê typów mieszanych, jutro bêdê kontynuowa³ naukê jêzyka.
+Wczoraj pomagaÅ‚em tworzyÄ‡ repozytorium projektu, dzisiaj doszliwowaÅ‚em repozytorium oraz nauczyÅ‚em siÄ™ typÃ³w mieszanych, jutro bÄ™dÄ™ kontynuowaÅ‚ naukÄ™ jÄ™zyka.
 	2017-05-10
-Wczoraj zrobi³em to co planowa³em, dziœ bêdê kontynuowa³ naukê C++, jutro poczytam na temat klas.
+Wczoraj zrobiÅ‚em to co planowaÅ‚em, dziÅ› bÄ™dÄ™ kontynuowaÅ‚ naukÄ™ C++, jutro poczytam na temat klas.
+	2017-05-11
+Wczoraj udaÅ‚o mi siÄ™ zrealizowaÄ‡ plany, dziÅ› dowiedziaÅ‚em siÄ™ czym sÄ… klasy, jutro bÄ™dÄ™ dalej uczyÅ‚ siÄ™ c++.
+ Â  Â  Â  Â 2017-05-11
+Wczoraj zrealizowaÅ‚em plany, dziÅ› bÄ™dÄ™ uczyÅ‚ siÄ™ polimorfizmu, jutro poczytam na temat dziedziczenia.

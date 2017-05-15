@@ -1,5 +1,14 @@
+	12-05-2017	
+Zosta³ ostatni dzieñ na poznanie ró¿nych bibliotek. Muszê dzisiaj wybraæ ostateczn¹ i porozumieæ siê z reszt¹ grupy,
+któr¹ wybierzemy do projektu.
+	
+	11-05-2017	
+Musze poznaæ wiêcej opcji z openCV. Spróbujê równie¿ wybraæ pewien filtr na póŸniejsz¹ pracê. Pod koniec postaram
+siê znaleŸæ jeszcze przynajmniej jedn¹ bibliotekê, któr¹ mo¿na wykorzystaæ do projektu.
+	
 	10-05-2017	
 Znalaz³em bibliotekê openCV. Dzisiaj muszê sie z ni¹ lepiej zaznajomiæ.
+	
 	09-05-2017
 Niektórzy ci¹gle maj¹ problemy z gitem, które trzeba na bie¿¹co rozwi¹zywaæ. Dzisiaj zaczynam szukaæ informacji 
 o odpowiedniej bilbiotece cpp.
