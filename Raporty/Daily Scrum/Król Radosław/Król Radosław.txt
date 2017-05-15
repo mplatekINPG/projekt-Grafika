@@ -7,4 +7,6 @@
 11.05.2017
 	Zadanie z wczoraj jest na tyle szerokie, ¿e nale¿y je rozdzieliæ na kilka dni. W Zespole pojêta decyzja o u¿yciu biblioteki OpneCv. Plan na dziœ to kontynuacja wczorajszego zadania, bli¿sze poznanie wybranej biblioteki. 
 12.05.2017
-	Zapozna³em siê z wymyganiami tej biblioteki w potrzebnym mi aspekcie, dziœ tworzê generalny plan w implementowania filtra.
+	Zapozna³em siê z wymyganiami tej biblioteki w potrzebnym mi aspekcie, dziœ przygotowuje komputer pod wybran¹ bibliotekê, kompilujê pliki bilbioteki.
+15.05.2017
+	W poprzedni dzieñ pracy napotka³em problem, posiadane pliki i aplikacja nie wspó³pracuje z moim systemem (Bo jest 32bit???).Próbujê dziœ rozwi¹zaæ problem.
