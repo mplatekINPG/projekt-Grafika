@@ -1,0 +1,315 @@
+Program w którego napisaniu pomogła mi wiedza zdobyta w ostatnim tygodniu:
+
+#include <iostream>
+#include <conio.h>
+#include <assert.h>
+#include <fstream>
+
+using namespace std;
+
+class Wektor
+{
+    private:
+    //public:
+        int rozmiar;
+        int*tab;
+    public:
+        Wektor(int r);
+        ~Wektor();
+        //void wypisz();
+        Wektor & operator=(const Wektor & x);
+        Wektor operator+(const Wektor & x);
+        Wektor & operator+=(const Wektor & x);
+        Wektor operator-(const Wektor & x);
+        Wektor & operator-=(const Wektor & x);
+        int operator*(const Wektor & x);
+        Wektor operator*(const int z);
+        friend Wektor operator*(const int z,const Wektor & x);
+        Wektor & operator*=(const int z);
+        bool operator==(const Wektor & x);
+        bool operator!=(const Wektor & x);
+        int&operator[](const int z);
+        friend ostream& operator<< (ostream&,Wektor const&);
+        friend istream& operator>> (istream&,Wektor&);
+};
+
+Wektor::Wektor(int r)
+{
+    if(r>0)
+    {
+        tab=new int[r];
+        assert(tab!=NULL);
+        rozmiar=r;
+        for(int i=0;i<r;i++)
+        {
+            tab[i]=0;
+        }
+    }
+    else
+    {
+        cout << "Niepoprawna wartosc wymiaru wektora" << endl;
+    }
+}
+Wektor::~Wektor()
+{
+    delete[] tab;
+}
+
+/*void Wektor::wypisz()
+{
+    for(int i=0;i<this->rozmiar;i++)
+    {
+        cout << this->tab[i] << " ";
+    }
+}*/
+
+Wektor & Wektor::operator=(const Wektor & x)
+{
+    if(this->rozmiar==x.rozmiar)
+    {
+        for(int i=0;i<this->rozmiar;i++)
+            this->tab[i]=x.tab[i];
+    }
+    else
+        cout << "BLAD !!! Wektory nie sa tego samego rozmiaru (rownosc)" << endl;
+
+    return *this;
+}
+
+Wektor  Wektor::operator+(const Wektor & x)
+{
+    Wektor y(this->rozmiar);
+
+    if(this->rozmiar==x.rozmiar)
+    {
+        for(int i=0;i<this->rozmiar;i++)
+            y.tab[i]=this->tab[i]+x.tab[i];
+    }
+    else
+        cout << "BLAD !!! Wektory nie sa tego samego rozmiaru (suma)" << endl;
+
+    return y;
+}
+
+Wektor& Wektor::operator+=(const Wektor & x)
+{
+    if(this->rozmiar==x.rozmiar)
+    {
+        for(int i=0;i<this->rozmiar;i++)
+            this->tab[i]+=x.tab[i];
+    }
+    else
+        cout << "BLAD !!! Wektory nie sa tego samego rozmiaru (suma,rownosc)" << endl;
+
+    return *this;
+}
+
+Wektor  Wektor::operator-(const Wektor & x)
+{
+    Wektor y(this->rozmiar);
+
+    if(this->rozmiar==x.rozmiar)
+    {
+        for(int i=0;i<this->rozmiar;i++)
+            y.tab[i]=this->tab[i]-x.tab[i];
+    }
+    else
+        cout << "BLAD !!! Wektory nie sa tego samego rozmiaru (roznica)" << endl;
+
+    return y;
+}
+
+Wektor & Wektor::operator-=(const Wektor & x)
+{
+    if(this->rozmiar==x.rozmiar)
+    {
+        for(int i=0;i<this->rozmiar;i++)
+            this->tab[i]-=x.tab[i];
+    }
+    else
+        cout << "BLAD !!! Wektory nie sa tego samego rozmiaru (suma,rownosc)" << endl;
+
+    return *this;
+}
+
+int Wektor::operator*(const Wektor & x)
+{
+    int y=0;
+
+    if(this->rozmiar==x.rozmiar)
+    {
+        for(int i=0;i<this->rozmiar;i++)
+            y+=this->tab[i]*x.tab[i];
+    }
+    else
+        cout << "BLAD !!! Wektory nie sa tego samego rozmiaru (iloczyn)" << endl;
+
+    return y;
+}
+
+Wektor Wektor::operator*(const int z)
+{
+    Wektor y(this->rozmiar);
+
+        for(int i=0;i<this->rozmiar;i++)
+            y.tab[i]=z*this->tab[i];
+
+    return y;
+}
+
+Wektor operator*(const int z,const Wektor & x)
+{
+    Wektor y(x.rozmiar);
+
+        for(int i=0;i<x.rozmiar;i++)
+            y.tab[i]=z*x.tab[i];
+
+    return y;
+}
+
+Wektor & Wektor::operator*=(const int z)
+{
+        for(int i=0;i<this->rozmiar;i++)
+            this->tab[i]=this->tab[i]*z;
+
+
+    return *this;
+}
+
+bool Wektor::operator==(const Wektor & x)
+{
+    if(this->rozmiar==x.rozmiar)
+    {
+        for(int i=0;i<this->rozmiar;i++)
+            if(this->tab[i]!=x.tab[i])
+                return false;
+    }
+    else
+    {
+        //cout << "BLAD !!! Wektory nie sa tego samego rozmiaru (porownanie)" << endl;
+        return false;
+    }
+    return true;
+}
+
+bool Wektor::operator!=(const Wektor & x)
+{
+    if(this->rozmiar==x.rozmiar)
+    {
+        for(int i=0;i<this->rozmiar;i++)
+            if(this->tab[i]!=x.tab[i])
+                return true;
+    }
+    else
+    {
+        cout << "BLAD !!! Wektory nie sa tego samego rozmiaru (nierownosc)" << endl;
+        return true;
+    }
+    return false;
+}
+
+int& Wektor::operator[](const int z)
+{
+    if(z<this->rozmiar && z>=0)
+    {
+        return this->tab[z];
+    }
+    else
+    {
+        cout << "BLAD !!! Indeks za duzy lub mniejszy od 0" << endl;
+    }
+    return tab[0];
+}
+
+ostream& operator<< (ostream &wyjscie,Wektor const& x)
+{
+    for(int i=0;i<x.rozmiar;i++)
+    wyjscie << x.tab[i] << " ";
+    return wyjscie;
+}
+
+istream& operator>> (istream &wejscie,Wektor & x)
+{
+    for(int i=0;i<x.rozmiar;i++)
+    wejscie >> x.tab[i];
+    return wejscie;
+}
+
+int main(int argc, char *argv[])
+{
+    fstream fp;
+
+    fp.open( "test.txt", ios::in );
+    if( fp.good() != true )
+    {
+        return(1);
+    }
+
+    Wektor v1(3);
+    Wektor v2(3);
+    Wektor v3(3);
+
+    int w1=0;
+    bool w2;
+    //int w2=0;
+    //Pobieranie danych z pliku
+    fp >> v1[0];
+    fp >> v1[1];
+    fp >> v1[2];
+
+    fp >> v2[0];
+    fp >> v2[1];
+    fp >> v2[2];
+
+    fp.close();
+    //Pobieranie danych z klawiatury
+    //cin >> v1 >> v2;
+
+    // +
+    v3=v1+v2;
+    cout << v1 << endl << "  +" << endl << v2 << endl << "  =" << endl << v3 << endl<<endl<<endl;
+    // +=
+    cout << v3 << endl << "  +=" << endl << v1 << endl << "  =";
+    v3+=v1;
+    cout << endl << v3 << endl<<endl<<endl;
+    // -
+    v3=v1-v2;
+    cout << v1 << endl << "  -" << endl << v2 << endl << "  =" << endl << v3 << endl<<endl<<endl;
+    // -=
+    cout << v3 << endl << "  -=" << endl << v1 << endl << "  =";
+    v3-=v1;
+    cout << endl << v3 << endl<<endl<<endl;
+    getch();
+    // *
+    w1=v1*v2;
+    cout << v1 << endl << "  *" << endl << v2 << endl << "  =" << endl << w1 << endl<<endl<<endl;
+    // *=
+    cout << v3 << endl << "  *=" << endl << "    2" << endl << "  =";
+    v3*=2;
+    cout << endl << v3 << endl<<endl<<endl;
+    // wektor * liczba
+    v3=v1*2;
+    cout << v1 << endl << "  *" << endl << "  2" << endl << "  =" << endl << v3 << endl<<endl<<endl;
+    // liczba * wektor
+    v3=2 * v1;
+    cout << "  2" << endl << "  *" << endl << v1 << endl << "  =" << endl << v3 << endl<<endl<<endl;
+    getch();
+    // ==
+    w2=(v1==v2);
+    cout << v1 << endl << "  ==" << endl << v2 << endl << "  =" << endl << w2 << endl<<endl<<endl;
+    v1=v2;
+    w2=(v1==v2);
+    cout << v1 << endl << "  ==" << endl << v2 << endl << "  =" << endl << w2 << endl<<endl<<endl;
+    // !=
+    w2=(v1!=v2);
+    cout << v1 << endl << "  !=" << endl << v2 << endl << "  =" << endl << w2 << endl<<endl<<endl;
+    v1=v3;
+    w2=(v1!=v2);
+    cout << v1 << endl << "  !=" << endl << v2 << endl << "  =" << endl << w2 << endl<<endl<<endl;
+    // []
+    cout << v1[0] << endl<<endl;
+    // >> <<
+    cout << "Podaj wektor o wymiarze ( 3 ) : ";
+    cin >> v1;
+    cout << v1;
+}
