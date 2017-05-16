@@ -10,3 +10,6 @@
 	Zapozna³em siê z wymyganiami tej biblioteki w potrzebnym mi aspekcie, dziœ przygotowuje komputer pod wybran¹ bibliotekê, kompilujê pliki bilbioteki.
 15.05.2017
 	W poprzedni dzieñ pracy napotka³em problem, posiadane pliki i aplikacja nie wspó³pracuje z moim systemem (Bo jest 32bit???).Próbujê dziœ rozwi¹zaæ problem.
+16.05.2017
+	Wczoraj: Biblioteki zosta³y zainstalowane z sukcesem i skompilowane.
+	Dziœ: Rozpoczêcie pracy nad algorytmem filtru, opracowanie koncepcji pracy ze zmienn¹ z obrazem jako macierz.
