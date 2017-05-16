@@ -1,3 +1,7 @@
+	16-05-2017
+Postanowi³em wybraæ filtr zwiêkszania i zmniejszania kontrastu. Dzisiaj muszê pobraæ bibliotekê openCV, poprawnie j¹
+zainstalowaæ i rozpocz¹æ pracê z kodem.
+
 	15-05-2017	
 Dzisiejsze spotkanie podsumowujace sprint da³o dobre wyniki. Zaplanowaliœmy pracê i mo¿emy siê za ni¹ zabraæ.
 Teraz nadesz³¹ pora wyboru filtra.
