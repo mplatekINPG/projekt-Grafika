@@ -1,0 +1,2 @@
+Zmiana kontrastu jest operacj¹ na ka¿dym pikselu osobno. Dlatego mo¿na do niej wykorzystaæ funkcjê for.
+Ka¿dy piksel dodatkowo przyjmuje wartosci od 0 do 255. Zmiana kontrastu bêdzie wiêc wp³ywaæ na wartoœci tych pikseli.
