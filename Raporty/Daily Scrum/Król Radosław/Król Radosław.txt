@@ -13,3 +13,6 @@
 16.05.2017
 	Wczoraj: Biblioteki zosta³y zainstalowane z sukcesem i skompilowane.
 	Dziœ: Rozpoczêcie pracy nad algorytmem filtru, opracowanie koncepcji pracy ze zmienn¹ z obrazem jako macierz.
+17.05.2017
+	Wczoraj: proces wczytania obrazu jest obiektem pracy innej osoby, zmienna w funkcji stworzona.
+	Dziœ: stworzenie fragmentu kodu odpowiedzialnego za przepuszczanie górnych wartoœci.
