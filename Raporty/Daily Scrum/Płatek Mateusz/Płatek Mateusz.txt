@@ -1,3 +1,11 @@
+	18-05-2017
+Dzisiaj rozpoczynam pracê nad algorytmem. Wczoraj zebra³em potrzebne informacje, które od dzisiaj musze zmieniaæ
+w kod c++. 
+
+	17-05-2017
+Planowana na wczoraj instalacja biblioteki nie przebieg³a pomyœlnie. Dzisiaj musze to zrobiæ z pomoc¹ Scrum mastera. 
+Pomimo tego, mam ju¿ pomys³ na algorytm.
+
 	16-05-2017
 Postanowi³em wybraæ filtr zwiêkszania i zmniejszania kontrastu. Dzisiaj muszê pobraæ bibliotekê openCV, poprawnie j¹
 zainstalowaæ i rozpocz¹æ pracê z kodem.
