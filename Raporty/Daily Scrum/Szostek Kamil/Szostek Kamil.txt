@@ -29,3 +29,7 @@ Dziœ zaimplementujê przydzielon¹ mi funkcjê do pierwotnej wersji naszego program
 17.09.2017
 Wczoraj zaimplementowa³em przydzielon¹ mi funckjê do pierwotnej wersji naszego programu.
 Dziœ poprawiê b³êdy które które wyst¹pi³y po implementacji przydzielonej mi funckji do pierwotnej wersji naszego programu.
+
+18.09.2017
+Wczoraj poprawi³em b³êdy które wyst¹pi³y po implementacji przydzielonej mi funkcji do pierwszeotnej wersji naszego programu.
+Jutro bêdê uczy³ siê jêzyka aby nadrobiæ braki które nie pozwalaj¹ mi na poprawienie wszystkich b³êdów wystêpuj¹cych w mojej funkcji.
