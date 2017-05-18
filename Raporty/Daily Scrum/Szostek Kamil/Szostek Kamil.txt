@@ -25,3 +25,7 @@ Jutro zaimplementujê przydzielon¹ mi funkcjê do pierwotnej wersji naszego progra
 16.09.2017
 Wczoraj przela³em u³o¿on¹ w g³owie konstrukcjê przydzielonej mi funkcji obrabiajacej obraz na papier.
 Dziœ zaimplementujê przydzielon¹ mi funkcjê do pierwotnej wersji naszego programu.
+
+17.09.2017
+Wczoraj zaimplementowa³em przydzielon¹ mi funckjê do pierwotnej wersji naszego programu.
+Dziœ poprawiê b³êdy które które wyst¹pi³y po implementacji przydzielonej mi funckji do pierwotnej wersji naszego programu.

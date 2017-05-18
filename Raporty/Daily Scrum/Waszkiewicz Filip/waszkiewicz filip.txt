@@ -12,3 +12,5 @@ Wczoraj zrealizowałem plany, dziś będę uczył się polimorfizmu, jutro poczy
 Wczoraj dokończyłem naukę języka, dzisiaj przejmę obowiązki scrum mastera i zacznę wprowadzać funkcję wczytywania obrazu.
 	2017-05-13
 Wczoraj przejąłem obowiązki scrum mastera i zainstalowałem bibliotekę OpenCV, dziś zajmę się przeglądaniem jej funkcji.
+	2017-05-14
+Wczoraj udało mi się zrealizować plany, dziś będę kontynuował studiowanie bliblioteki.
