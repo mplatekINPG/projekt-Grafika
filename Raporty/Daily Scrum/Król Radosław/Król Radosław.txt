@@ -16,3 +16,6 @@
 17.05.2017
 	Wczoraj: proces wczytania obrazu jest obiektem pracy innej osoby, zmienna w funkcji stworzona.
 	Dziœ: stworzenie fragmentu kodu odpowiedzialnego za przepuszczanie górnych wartoœci.
+18.05.2017
+	wczoraj: problem tworzenia algorytmu okaza³ siê doœæ skomplikowany;
+	Dziœ: kontynuacja z dnia poprzedniego.
