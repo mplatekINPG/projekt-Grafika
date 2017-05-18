@@ -10,3 +10,25 @@ Zmniejszenie kontrastu z kolei polega na zmniejszeniu wartoœci pikseli. Wzór jes
 
 Jeœli wartoœæ piksela nie moze przekroczyæ przedzia³u [0,255]. Dla wartoœci odpowiednio mniejszych lub wiêkszych trzeba 
 przyj¹æ krañce przedzia³u.
+
+-----------------------------------------------------------------------------------------------------------------
+
+using std::cout;
+using std::cin;
+using std::endl;
+using namespace cv;
+
+Mat contrast_change (Mat image) //Mat jest typem z biblioteki OpenCV
+{
+	Mat new_image = Mat::zeros( image.size(), imge.type() ); //tworzenie nowego obrazu, wype³nionego zerami, o takim samym rozmiarze i typie jak wczytywany
+	double change;
+	cout<<"Prosze podac wartosc zmiany kontastu.\n"<<
+	<<"Wartosci dodatnie powoduja zwiekszenie, a ujemnie zmniejszenie kontrastu\n";
+	cin>>change;
+
+	for (int y = 0; y < image.rows; y++)
+		for (int x = 0; x < image.cols; x++)	//image.rows i image.cols sa obiektami biblioteki cv, kore przechowuja rozmiar obrazu
+		{
+			
+		}
+}
