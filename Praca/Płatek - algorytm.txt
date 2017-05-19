@@ -29,7 +29,8 @@ Mat contrast_change (Mat image) 								//Mat jest typem z biblioteki OpenCV
 	for (int x = 0; x < image.rows; x++)
 		for (int y = 0; y < image.cols; y++)						//image.rows i image.cols sa obiektami biblioteki cv, kore przechowuja rozmiar obrazu
 		{
-			(int)new_image[x][y] = image[x][y] * change;
+			new_image[x][y] = image[x][y] * change;
+			new_image[x][y] = static_cast<int>(new_image[x][y]);			//zaokr¹glenie wartoœci do int
 
 			if (new_image[x][y] > 255)
 				new_image[x][y] = 255;
@@ -39,3 +40,16 @@ Mat contrast_change (Mat image) 								//Mat jest typem z biblioteki OpenCV
 		}
 	return new_image;
 }
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+Równoczeœnie zadanie to spe³nia funkcja typu void "convertTo" z biblioteki OpenCV:
+			image.convertTo(new_image, -1, alfa, beta);
+
+w argumentach podajemy: zmienn¹ do zapisu, typ zwracanego obrazu (dla wartoœci <0 pozostaje ten sam), 
+zmianê kontrastu alfa, wzrost jasnoœci beta. 
+Dla prostych zmian beta moze zostaæ pominiêta.
+ 
+W moim algorytmie przyjê³aby ona postaæ:
+			image.convertTo(new_image, -1, change, 0);
