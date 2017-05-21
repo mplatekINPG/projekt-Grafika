@@ -3,3 +3,9 @@
  #include <iostream>
  using namespace cv;
  using namespace std;
+
+     int main()
+    {
+        Mat image1, image2;
+
+    }
