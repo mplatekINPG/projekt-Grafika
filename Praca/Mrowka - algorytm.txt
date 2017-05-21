@@ -37,3 +37,18 @@ wartoœci.
 		}
 Aby uœredniæ wartoœci tablicy musimy stworzyæ wpierw algorytm sortowania
 który wybierze wartoœæ œredni¹ z danych pikseli
+--------------------------------------------------------------------------
+Commit #3
+Zastosowano algorytm sortuj¹cy wartoœci "InsertionSort tak aby wy³oniæ œredni¹:
+
+void insertionSort(int tablica[])
+{
+    int temp, i , j;
+    for(i = 0; i < 9; i++){
+        temp = tablica[i];
+        for(j = i-1; j >= 0 && temp < tablica[j]; j--){
+            tablica[j+1] = tablica[j];
+        }
+        tablica[j+1] = temp;
+    }
+}
