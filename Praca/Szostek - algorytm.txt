@@ -13,3 +13,25 @@ int main( int argc, char** argv )
 }
 
 =================================================
+
+Commit 2 - Deklaracja sta³ych, obrazów oraz okna na obraz
+
+#include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/highgui/highgui.hpp"
+#include <iostream>
+
+using namespace std;
+using namespace cv;
+
+/// Global Variables
+int DELAY_CAPTION = 1500;
+int DELAY_BLUR = 100;
+int MAX_KERNEL_LENGTH = 40;
+
+Mat src; Mat dst;
+char window_name[] = "Filter Demo 1";
+
+int main( int argc, char** argv )
+{
+
+}
