@@ -8,5 +8,6 @@
     {
         Mat image1, image2;
         image1 = imread("lena.bmp", CV_LOAD_IMAGE_COLOR);
+        namedWindow("Color Image", WINDOW_AUTOSIZE);
 
     }
