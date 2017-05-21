@@ -1,0 +1,21 @@
+Commit #1
+Linkowanie biblioteki opencv i wczytywanie obrazu w celu proccesowania
+
+#include<iostream>
+#include<opencv2/imgproc/imgproc.hpp>
+#include<opencv2/highgui/highgui.hpp>
+ 
+using namespace std;
+using namespace cv;
+
+int main()
+{
+    Mat src, next;
+    src = imread("lena.png", CV_LOAD_IMAGE_GRAYSCALE);
+    //wczytywanie obrazu i sprawdzanie
+    if( !src.data )
+    { 
+        return -1; 
+    }
+    return 0;
+}
