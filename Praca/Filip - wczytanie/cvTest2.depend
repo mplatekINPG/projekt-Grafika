@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1495368437 source:c:\users\filip\studia\informatyka\cvtest2\cvtest2\main.cpp
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<iostream>
+
