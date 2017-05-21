@@ -52,3 +52,31 @@ void insertionSort(int tablica[])
         tablica[j+1] = temp;
     }
 }
+-------------------------------------------------------------------------
+Commit #4
+Processing obrazu wykorzystuj¹c "slider" (je¿d¿¹c¹ tablicê) i wyœwietlenie starego
+i nowego obrazka
+
+        for(int y = 1; y < src.rows - 1; y++){
+            for(int x = 1; x < src.cols - 1; x++){
+                tablica[0] = src.at<uchar>(y - 1 ,x - 1);
+                tablica[1] = src.at<uchar>(y, x - 1);
+                tablica[2] = src.at<uchar>(y + 1, x - 1);
+                tablica[3] = src.at<uchar>(y - 1, x);
+                tablica[4] = src.at<uchar>(y, x);
+                tablica[5] = src.at<uchar>(y + 1, x);
+                tablica[6] = src.at<uchar>(y - 1, x + 1);
+                tablica[7] = src.at<uchar>(y, x + 1);
+                tablica[8] = src.at<uchar>(y + 1, x + 1);
+                insertionSort(tablica);
+                // przypisanie mediany do wyœrodkowanego elementu tablicy
+                next.at<uchar>(y,x) = tablica[4];
+            }
+        }
+        //wyœwietlenie obu obrazków
+        namedwindow("final");
+        imshow("final", next);
+        namedwindow("initial");
+        imshow("initial", src);
+        return 0;
+}
