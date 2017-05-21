@@ -35,3 +35,55 @@ int main( int argc, char** argv )
 {
 
 }
+
+=================================================
+
+Commit 3 - Odczytywanie przyk³adowego obrazu oraz dodanie niezbêdnych funkcji
+
+#include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/highgui/highgui.hpp"
+#include <iostream>
+
+using namespace std;
+using namespace cv;
+
+// Sta³e globalne
+
+int DELAY_CAPTION = 1500;
+int DELAY_BLUR = 100;
+int MAX_KERNEL_LENGTH = 40;
+
+Mat src; Mat dst;
+char window_name[] = "Filter Demo 1";
+
+int display_caption( char* caption );
+int display_dst( int delay );
+
+
+int main( int argc, char** argv )
+{
+	namedWindow( window_name, CV_WINDOW_AUTOSIZE );
+
+   src = imread("lena.bmp", CV_LOAD_IMAGE_COLOR);	// Wczytanie obrazu
+}
+
+int display_caption( char* caption )
+ {
+   dst = Mat::zeros( src.size(), src.type() );
+   putText( dst, caption,
+            Point( src.cols/4, src.rows/2),
+            CV_FONT_HERSHEY_COMPLEX, 1, Scalar(255, 255, 255) );
+
+   imshow( window_name, dst );
+   int c=waitKey( DELAY_CAPTION );
+   //if( c >= 0 ) { return 0; }
+   return 0;
+  }
+
+  int display_dst( int delay )
+  {
+    imshow( window_name, dst );
+    int c = waitKey ( delay );
+    //if( c >= 0 ) { return 0; }
+    return 0;
+  }
