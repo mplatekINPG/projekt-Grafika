@@ -1,6 +1,9 @@
-1. implementacja wczytywania obrazu do programu - Filip
-2. implementacja algorytmu filtra " " - Miko�aj
-2. implementacja algorytmu filtra " " - Kamil
-3. implementacja algorytmu filtra " " - Radek
-4. implementacja algorytmu filtra " " - Mateusz
+W trakcie 3. tygodnia musimy skupić się na łączeniu pracy wszystkich członków zespołu.
+Najważniejsze będzie rozpoczęcie tworzenia interfejsu wykorzystywanego przez program. Eleganckie ułożenie ich spowoduje 
+lepszą prezencję programu i wzmoży zainteresowanie nim. Interfejsem zajmą się wspólnie Filip i Mateusz.
 
+Równocześnie należy ujednolicić formę funkcji wywołujących poszczególne filtry. Ujednolicenie formy zwiększy przejrzystość
+i ułatwi nam dalszą pracę.
+Dodatkowo, oprócz interfejsu, zespół zbierze całą dotychczasową pracę w 2 pliki: nagłówkowy header i główny.
+Dzięki temu dalsze zmiany będzie można wprowadzać tylko w pojedynczych, dobrze uporządkowanych miejscach, a nie w różnych
+plikach rozrzuconych po całym repozytorium. Zadanie to należy do Mikołaja, Kamila i Radka.
