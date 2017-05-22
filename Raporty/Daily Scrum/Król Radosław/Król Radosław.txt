@@ -22,3 +22,6 @@
 19.05.2017
 	Wczoraj: Funkcja void odpowiedzialna skoñczona
 	Dziœ: testowe zaimplementowanie stworzonej funkcji do programu testowego, sprawdzenie dzia³ania i e.w. b³êdów.
+20.05.2017
+	Wczeœniej: Funkcja ogólnie jest gotowa
+	Dziœ: Przegotowanie do raportu scruma, zaimplementowanie plików .txt na .cpp
