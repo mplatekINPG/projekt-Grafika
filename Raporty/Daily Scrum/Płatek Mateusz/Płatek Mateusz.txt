@@ -1,3 +1,23 @@
+	19-05-2017
+Algorytm jest prawie gotowy. Spe³nia moje oczekiwania, musi tylko przejœæ fazê testu. Ale wczeœniej postaram siê 
+go bardziej dopracowaæ.
+
+	18-05-2017
+Dzisiaj rozpoczynam pracê nad algorytmem. Wczoraj zebra³em potrzebne informacje, które od dzisiaj musze zmieniaæ
+w kod c++. 
+
+	17-05-2017
+Planowana na wczoraj instalacja biblioteki nie przebieg³a pomyœlnie. Dzisiaj musze to zrobiæ z pomoc¹ Scrum mastera. 
+Pomimo tego, mam ju¿ pomys³ na algorytm.
+
+	16-05-2017
+Postanowi³em wybraæ filtr zwiêkszania i zmniejszania kontrastu. Dzisiaj muszê pobraæ bibliotekê openCV, poprawnie j¹
+zainstalowaæ i rozpocz¹æ pracê z kodem.
+
+	15-05-2017	
+Dzisiejsze spotkanie podsumowujace sprint da³o dobre wyniki. Zaplanowaliœmy pracê i mo¿emy siê za ni¹ zabraæ.
+Teraz nadesz³¹ pora wyboru filtra.
+
 	12-05-2017	
 Zosta³ ostatni dzieñ na poznanie ró¿nych bibliotek. Muszê dzisiaj wybraæ ostateczn¹ i porozumieæ siê z reszt¹ grupy,
 któr¹ wybierzemy do projektu.

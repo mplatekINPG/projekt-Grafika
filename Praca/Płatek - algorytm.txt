@@ -1,0 +1,55 @@
+Zmiana kontrastu jest operacj¹ na ka¿dym pikselu osobno. Dlatego mo¿na do niej wykorzystaæ funkcjê for.
+Ka¿dy piksel dodatkowo przyjmuje wartosci od 0 do 255. Zmiana kontrastu bêdzie wiêc wp³ywaæ na wartoœci tych pikseli.
+
+Zwiêkszenie kontrastu polega na zwiêkszeniu wartoœci pikseli. Wystarczy ich wartoœæ przemno¿yæ przez okreœlon¹ sta³¹.
+Przyk³adowo:
+new_pixel[i][j] = pixel[i][j] * c
+gdzie i,j to wspó³rzêdne, a c > 1.
+
+Zmniejszenie kontrastu z kolei polega na zmniejszeniu wartoœci pikseli. Wzór jest identyczny, przy czym c < 1.
+
+Jeœli wartoœæ piksela nie moze przekroczyæ przedzia³u [0,255]. Dla wartoœci odpowiednio mniejszych lub wiêkszych trzeba 
+przyj¹æ krañce przedzia³u.
+
+-----------------------------------------------------------------------------------------------------------------
+
+using std::cout;
+using std::cin;
+using std::endl;
+using namespace cv;
+
+Mat contrast_change (Mat image) 								//Mat jest typem z biblioteki OpenCV
+{
+	Mat new_image = Mat::zeros( image.size(), imge.type() ); 				//tworzenie nowego obrazu, wype³nionego zerami, o takim samym rozmiarze i typie jak wczytywany
+	double change;
+	cout<<"Prosze podac wartosc zmiany kontastu.\n"<<
+	<<"Wartosci wieksze od 1 powoduja zwiekszenie, a miedzy 0 a 1 zmniejszenie kontrastu\n";		//informacja o zmianie kontrastu 
+	cin>>change;										//wczytanie czynnika zmiany
+
+	for (int x = 0; x < image.rows; x++)
+		for (int y = 0; y < image.cols; y++)						//image.rows i image.cols sa obiektami biblioteki cv, kore przechowuja rozmiar obrazu
+		{
+			new_image[x][y] = image[x][y] * change;
+			new_image[x][y] = static_cast<int>(new_image[x][y]);			//zaokr¹glenie wartoœci do int
+
+			if (new_image[x][y] > 255)
+				new_image[x][y] = 255;
+
+			if (new_image[x][y] < 0)
+				new_image[x][y] = 0;
+		}
+	return new_image;
+}
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+Równoczeœnie zadanie to spe³nia funkcja typu void "convertTo" z biblioteki OpenCV:
+			image.convertTo(new_image, -1, alfa, beta);
+
+w argumentach podajemy: zmienn¹ do zapisu, typ zwracanego obrazu (dla wartoœci <0 pozostaje ten sam), 
+zmianê kontrastu alfa, wzrost jasnoœci beta. 
+Dla prostych zmian beta moze zostaæ pominiêta.
+ 
+W moim algorytmie przyjê³aby ona postaæ:
+			image.convertTo(new_image, -1, change, 0);

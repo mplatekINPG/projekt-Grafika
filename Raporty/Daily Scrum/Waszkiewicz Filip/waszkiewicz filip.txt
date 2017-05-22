@@ -6,5 +6,15 @@ Wczoraj pomagałem tworzyć repozytorium projektu, dzisiaj doszliwowałem repozy
 Wczoraj zrobiłem to co planowałem, dziś będę kontynuował naukę C++, jutro poczytam na temat klas.
 	2017-05-11
 Wczoraj udało mi się zrealizować plany, dziś dowiedziałem się czym są klasy, jutro będę dalej uczył się c++.
-        2017-05-11
+        2017-05-12
 Wczoraj zrealizowałem plany, dziś będę uczył się polimorfizmu, jutro poczytam na temat dziedziczenia.
+	2017-05-15
+Wczoraj dokończyłem naukę języka, dzisiaj przejmę obowiązki scrum mastera i zacznę wprowadzać funkcję wczytywania obrazu.
+	2017-05-16
+Wczoraj przejąłem obowiązki scrum mastera i zainstalowałem bibliotekę OpenCV, dziś zajmę się przeglądaniem jej funkcji.
+	2017-05-17
+Wczoraj udało mi się zrealizować plany, dziś będę kontynuował studiowanie bliblioteki.
+	2017-05-19
+Wczoraj byłem chory i nie byłem w stanie niczego wykonać wraz z daily scrumem. Dziś będę rozwiązywał problemy z nieprawidłowym działaniem pewnych funkcji zewnętrznej biblioteki.
+	2017-05-22
+Ostatnio udało mi się rozwiązać problemy. Dziś dokończę pracę jako Scrum Master.

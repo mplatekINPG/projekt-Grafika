@@ -10,3 +10,9 @@ Plan na jutro - Planujê zapoznaæ siê z algorytmami nak³adania filtrów uœredniaj¹
 11-05-2017
 Dzisiaj - Zapozna³em siê z algorytmami nak³adania filtrów.
 Plan na jutro - Planujê dalej pracowaæ nad metodami wykorzystania bibliotek open source do obróbki obrazu
+16-05-2017
+wczoraj - przeczyta³em o wewnêtrznych klasach biblioteki openCV w celu zrozumienia mteod manipulacji danymi;
+plan na dzisiaj - Zamierzam rozpisaæ w USL dzia³anie algorytmu przechodzenia po kolejnych pikselach.
+18-05-2017
+wczoraj - zainstalowa³em biblioteki openCV na moim komputerze, nie z³o¿y³em dziennego raportu gdy¿ wype³nia³em druki zeznania podatkowego dla urzêdu skarbowego.
+plan na dzisiaj - Zamierzam napisaæ pêtle przechodz¹c¹ po wszystkich pikselach.
