@@ -1,3 +1,7 @@
+	22-05-2017
+Dzisiejsze spotkanie zespo³u by³o owocne. Opracowaliœmy plan na najblizszy tydzieñ, za który zaraz trzeba 
+sie zabraæ. Na pocz¹tek poszukam informaji o interfejsie w QTE. 
+
 	19-05-2017
 Algorytm jest prawie gotowy. Spe³nia moje oczekiwania, musi tylko przejœæ fazê testu. Ale wczeœniej postaram siê 
 go bardziej dopracowaæ.

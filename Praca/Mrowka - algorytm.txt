@@ -80,3 +80,64 @@ i nowego obrazka
         imshow("initial", src);
         return 0;
 }
+-----------------------------------------------
+Commit #5
+Ca³y kod zoptymalizowany
+
+ #include<iostream>
+#include<opencv2/imgproc/imgproc.hpp>
+#include<opencv2/highgui/highgui.hpp>
+
+using namespace std;
+using namespace cv;
+
+void insertionSort(int tablica[])
+{
+    int temp, i , j;
+    for(i = 0; i < 9; i++){
+        temp = tablica[i];
+        for(j = i-1; j >= 0 && temp < tablica[j]; j--){
+            tablica[j+1] = tablica[j];
+        }
+        tablica[j+1] = temp;
+    }
+}
+
+int main()
+{
+    Mat src, next;
+    src = imread("book.png", CV_LOAD_IMAGE_GRAYSCALE);    //wczytywanie obrazu
+    if( !src.data )
+    {
+        return -1;
+    }
+    //stworzenie tablicy 3x4 do "jezdzenia po obrazku"
+    int tablica[9];
+    next = src.clone();                     //przekopiowanie tablicy do drugiej
+    for(int y = 0; y < src.rows; y++)
+        for(int x = 0; x < src.cols; x++)
+            next.at<uchar>(y,x) = 0.0;
+
+        for(int y = 1; y < src.rows - 1; y++){
+            for(int x = 1; x < src.cols - 1; x++){
+                tablica[0] = src.at<uchar>(y - 1 ,x - 1);
+                tablica[1] = src.at<uchar>(y, x - 1);
+                tablica[2] = src.at<uchar>(y + 1, x - 1);
+                tablica[3] = src.at<uchar>(y - 1, x);
+                tablica[4] = src.at<uchar>(y, x);
+                tablica[5] = src.at<uchar>(y + 1, x);
+                tablica[6] = src.at<uchar>(y - 1, x + 1);
+                tablica[7] = src.at<uchar>(y, x + 1);
+                tablica[8] = src.at<uchar>(y + 1, x + 1);
+                insertionSort(tablica);
+                // przypisanie mediany do wyorodkowanego elementu tablicy
+                next.at<uchar>(y,x) = tablica[4];
+            }
+        }
+        //wyowietlenie obu obrazków
+        namedwindow("final");
+        imshow("final", next);
+        namedwindow("initial");
+        imshow("initial", src);
+        return 0;
+}

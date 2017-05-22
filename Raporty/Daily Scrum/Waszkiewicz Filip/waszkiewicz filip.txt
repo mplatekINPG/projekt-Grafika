@@ -16,3 +16,5 @@ Wczoraj przejąłem obowiązki scrum mastera i zainstalowałem bibliotekę OpenC
 Wczoraj udało mi się zrealizować plany, dziś będę kontynuował studiowanie bliblioteki.
 	2017-05-19
 Wczoraj byłem chory i nie byłem w stanie niczego wykonać wraz z daily scrumem. Dziś będę rozwiązywał problemy z nieprawidłowym działaniem pewnych funkcji zewnętrznej biblioteki.
+	2017-05-22
+Ostatnio udało mi się rozwiązać problemy. Dziś dokończę pracę jako Scrum Master.

@@ -1,0 +1,4 @@
+Założenia sprintu zostały wykonane. Zespół przygotował potrzebne elementy na ten tydzień.
+Każdy podał zastosowanie wybranego przez siebie filtru do obróbki obrazu. 
+Organizacja scrumowa w czasie trwania sprintu przebiegała bez większych problemów. 
+Scrum master przypominał o daily scrumach oraz koniecznych commmitach. 
