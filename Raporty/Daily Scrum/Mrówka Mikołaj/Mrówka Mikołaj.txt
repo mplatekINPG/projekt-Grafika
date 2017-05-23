@@ -20,3 +20,6 @@ plan na dzisiaj - Zamierzam napisaæ pêtle przechodz¹c¹ po wszystkich pikselach.
 22-05-2017
 wczoraj - zapozna³em siê z napisanym przez siebie kodem i zoptymalizowa³em go, tak aby zcommitowaæ go na repozytorium
 plan na dzisiaj - dzisiaj zamierzam zapoznaæ siê z wszystkimi funkcjami, tak aby stworzyæ dla nich wspólny header w póŸniejszym czasie
+23-05-2017
+wczoraj - zapozna³em siê z funkcjami dostarczonymi przez resztê zespo³u, aby stworzyæ ich listê
+plan na dzisiaj - zamierzam wyszukaæ i skorygowaæ ró¿nice w implementacji które mog³yby stworzyæ niekompatybilnoœæ w kodzie
