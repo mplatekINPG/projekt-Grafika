@@ -18,3 +18,7 @@ Wczoraj udało mi się zrealizować plany, dziś będę kontynuował studiowanie
 Wczoraj byłem chory i nie byłem w stanie niczego wykonać wraz z daily scrumem. Dziś będę rozwiązywał problemy z nieprawidłowym działaniem pewnych funkcji zewnętrznej biblioteki.
 	2017-05-22
 Ostatnio udało mi się rozwiązać problemy. Dziś dokończę pracę jako Scrum Master.
+        2017-05-23
+Wczoraj przekazalem obowiazki scrum mastera dzis planowalem jak zrobic menu.
+        2017-05-24
+Wczoraj zrobilem plan pracy, menu zostanie wykonane w qt, a dzis będę wprowadzał go w życie.
