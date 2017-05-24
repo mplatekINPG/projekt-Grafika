@@ -22,9 +22,9 @@
 19.05.2017
 	Wczoraj: Funkcja void odpowiedzialna skoñczona
 	Dziœ: testowe zaimplementowanie stworzonej funkcji do programu testowego, sprawdzenie dzia³ania i e.w. b³êdów.
-20.05.2017
+22.05.2017
 	Wczeœniej: Funkcja ogólnie jest gotowa
 	Dziœ: Przegotowanie do raportu scruma, zaimplementowanie plików .txt na .cpp
-21.05.2017
+23.05.2017
 	Wczoraj: zaktualizowanie w³asnych plików w repozytorium z .txt na .cpp, zmiana za³o¿en scruma na bie¿¹cy tydzieñ
 	Dziœ: Wybranie kolejnego rodzaju filtra, poprawka poprzedniego, w miejscu zg³oszonym za problematyczny przez sccrum mastera.
