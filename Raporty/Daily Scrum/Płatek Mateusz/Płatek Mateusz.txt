@@ -1,10 +1,14 @@
+	24-05-2017
+Nie znalaz³em ¿adnych gotowych szablonów. Jednak odnalezienie programu Qt Creator pozwoli u³atwiæ nam pracê i zrobiæ
+ca³y interfejs samemu. Od dzisiaj sie za to zabieramy.
+
 	23-05-2017
-Zdobycie podstawowej wiedzy o QTE sie przyda³o. Myœle, ¿e dobrym posunieciem dzisiaj bêdzie szukanie szablonu, który 
+Zdobycie podstawowej wiedzy o Qt sie przyda³o. Myœle, ¿e dobrym posunieciem dzisiaj bêdzie szukanie szablonu, który 
 mo¿na przerobic i wykorzystaæ w naszym programie.
 
 	22-05-2017
 Dzisiejsze spotkanie zespo³u by³o owocne. Opracowaliœmy plan na najblizszy tydzieñ, za który zaraz trzeba 
-sie zabraæ. Na pocz¹tek poszukam informaji o interfejsie w QTE. 
+sie zabraæ. Na pocz¹tek poszukam informaji o interfejsie w Qt. 
 
 	19-05-2017
 Algorytm jest prawie gotowy. Spe³nia moje oczekiwania, musi tylko przejœæ fazê testu. Ale wczeœniej postaram siê 
