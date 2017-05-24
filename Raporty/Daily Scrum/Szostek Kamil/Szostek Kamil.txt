@@ -10,42 +10,42 @@ Juro trzeci dzieñ z rzêdu bêdê uczy³ siê programowania w C++.
 Dzisiaj po raz kolejny bêdê uczy³ siê programowania w C++.
 Jutro przejrzê przyk³adowe kody Ÿród³owe podobnych programów aby lepiej zaznajomiæ siê z tematem oraz pod³apaæ ciekawe pomys³y.
 
-11.09.2017
+11.05.2017
 Dzisiaj bêdê przegl¹da³ przyk³adowe kody Ÿród³owe podobnych programów aby lepiej zaznajomiæ siê z tematem oraz pod³apaæ ciekawe pomys³y.
 Jutro bêdê uk³ada³ w g³owie konstrukcjê przydzielonej mi funkcji obrabiaj¹cej obraz.
 
-12.09.2017
+12.05.2017
 Dzisiaj bêdê uk³ada³ w g³owie konstrukcjê przydzielonej mi funkcji obrabiajacej obraz.
 W poniedzia³ek przelejê u³o¿on¹ w g³owiê konstrukcjê przydzielonej mi funkcji obrabiajacej obraz na papier.
 
-15.09.2017
+15.05.2017
 Dziœ przelejê u³o¿on¹ w g³owie konstrukcjê przydzielonej mi funkcji obrabiajacej obraz na papier.
 Jutro zaimplementujê przydzielon¹ mi funkcjê do pierwotnej wersji naszego programu.
 
-16.09.2017
+16.05.2017
 Wczoraj przela³em u³o¿on¹ w g³owie konstrukcjê przydzielonej mi funkcji obrabiajacej obraz na papier.
 Dziœ zaimplementujê przydzielon¹ mi funkcjê do pierwotnej wersji naszego programu.
 
-17.09.2017
+17.05.2017
 Wczoraj zaimplementowa³em przydzielon¹ mi funckjê do pierwotnej wersji naszego programu.
 Dziœ poprawiê b³êdy które które wyst¹pi³y po implementacji przydzielonej mi funckji do pierwotnej wersji naszego programu.
 
-18.09.2017
+18.05.2017
 Wczoraj poprawi³em b³êdy które wyst¹pi³y po implementacji przydzielonej mi funkcji do pierwszeotnej wersji naszego programu.
 Dziœ bêdê uczy³ siê jêzyka aby nadrobiæ braki które nie pozwalaj¹ mi na poprawienie wszystkich b³êdów wystêpuj¹cych w mojej funkcji.
 
-19.09.2017
+19.05.2017
 Wczoraj uczy³em siê jêzyka aby nadrobiæ braki które nie pozwalaj¹ mi na poprawieinie wszystkich b³êdów wystêpuj¹cych w mojej funkcji.
 Dziœ dziêki zdobytej wiedzy naprawiê wszystkie b³êdy przydzielonej mi funkcji.
 
-22.09.2017
+22.05.2017
 W pi¹tek naprawi³em wszystkie b³êdy przydzielonej mi funkcji
 Dziœ przygotujê swoj¹ funkcjê do po³¹czenia z innymi funkcjami kolegów. Do tego celu musi spe³niaæ odpowiednie normy.
 
-23.09.2017
+23.05.2017
 Wczoraj przygotowa³em swoj¹ funkcjê do po³¹czenia z innymi funkcjami kolegów z zespo³u.
 Dziœ porozumiem siê z zespo³em w celu ustalenia najbardziej wydajnego sposobu po³¹czenia naszych funkcji w ca³oœæ.
 
-24.09.2017
+24.05.2017
 Wczoraj porozumia³em siê z zespo³em w celu ustalenia najbardziej wydajnego sposobu po³aczenia naszych funkcji w ca³oœæ.
 Dziœ po³¹czê swoj¹ funkcjê z funkcjami kolegów z zespo³u.
