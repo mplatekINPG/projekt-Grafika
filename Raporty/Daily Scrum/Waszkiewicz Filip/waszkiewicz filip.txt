@@ -20,3 +20,5 @@ Wczoraj byłem chory i nie byłem w stanie niczego wykonać wraz z daily scrumem
 Ostatnio udało mi się rozwiązać problemy. Dziś dokończę pracę jako Scrum Master.
         2017-05-23
 Wczoraj przekazalem obowiazki scrum mastera dzis planowalem jak zrobic menu.
+        2017-05-24
+Wczoraj zrobilem plan pracy, menu zostanie wykonane w qt, a dzis będę wprowadzał go w życie.
