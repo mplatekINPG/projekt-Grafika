@@ -22,3 +22,5 @@ Ostatnio udało mi się rozwiązać problemy. Dziś dokończę pracę jako Scrum
 Wczoraj przekazalem obowiazki scrum mastera dzis planowalem jak zrobic menu.
         2017-05-24
 Wczoraj zrobilem plan pracy, menu zostanie wykonane w qt, a dzis będę wprowadzał go w życie.
+	2017-05-25
+Wczoraj zacząłem pracować nad tworzeniem menu, dziś będę kontynuował wysiłki.

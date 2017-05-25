@@ -28,3 +28,6 @@
 23.05.2017
 	Wczoraj: zaktualizowanie w³asnych plików w repozytorium z .txt na .cpp, zmiana za³o¿en scruma na bie¿¹cy tydzieñ
 	Dziœ: Wybranie kolejnego rodzaju filtra, poprawka poprzedniego, w miejscu zg³oszonym za problematyczny przez sccrum mastera.
+24.05.2017
+	Wczoraj zapoznananie siê z zasad¹ dzia³ania filtra
+	Dziœ: odnalezienie funkcji w cv, rozpoczêcie jej odpowiedniej implementacji.
