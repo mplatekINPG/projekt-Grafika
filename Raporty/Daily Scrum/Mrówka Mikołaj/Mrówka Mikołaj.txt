@@ -26,3 +26,6 @@ plan na dzisiaj - zamierzam wyszukaæ i skorygowaæ ró¿nice w implementacji które 
 24-05-2017
 wczoraj wyszuka³em ró¿nicê w implementacji które skutkowa³yby niedzia³aniem kodu po przeniesieniu ich do wspólnego kodu
 plan na dzisiaj - zamierzam zamieniæ lokalne referencje w kodzie na odnoœniki do argumentów tak aby mog³y s³u¿yæ jako osobne funkcje
+25-05-2017
+wczoraj - pozamienia³em lokalne referencje w kodzie na odnoœniki do plików tak aby kod móg³ s³u¿yæ jako funkcja.
+dzisiaj - zamierzam dobraæ argumenty do nowopowsta³ych funkcji.
