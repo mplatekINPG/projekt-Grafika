@@ -24,3 +24,5 @@ Wczoraj przekazalem obowiazki scrum mastera dzis planowalem jak zrobic menu.
 Wczoraj zrobilem plan pracy, menu zostanie wykonane w qt, a dzis będę wprowadzał go w życie.
 	2017-05-25
 Wczoraj zacząłem pracować nad tworzeniem menu, dziś będę kontynuował wysiłki.
+	2017-05-26
+Wczoraj dalej pracowałem nad menu bez większych problemów, dziś będę kończył tą część projektu.
