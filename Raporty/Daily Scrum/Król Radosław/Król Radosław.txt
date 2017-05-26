@@ -34,3 +34,6 @@
 25.05.2017
 	Wczoraj: odpowiedzialna biblioteka zosta³a znaleziona, kod zosta³ czêsciowo napisany.
 	Dziœ: próba róznych wartoœcipodawanych do funkcji, w poszukiwwaniu najlepszego efektu koñcowego.
+26.05.2017
+	Wczoraj: filtr praktycznie na ukoñczeniu.
+	Dziœ: Ostanie poprawki, testy. 

@@ -26,3 +26,7 @@ int main(){
   waitKey(0);
   return 0;  
 }
+____________________________________________________________________________________________________________________________
+CVAPI(void) cvFilter2D( const CvArr* src, CvArr* dst, const CvMat* kernel,
+                        CvPoint anchor CV_DEFAULT(cvPoint(-1,-1)));
+
