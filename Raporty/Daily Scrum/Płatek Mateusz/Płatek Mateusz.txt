@@ -1,3 +1,7 @@
+	26-05-2017
+Nie ma problemu z zaprojektowaniem wygl¹du interfejsu. Problem jest z jego funkcjonalnoœci¹. I na tym musimy siê 
+w tym momencie skupiæ.
+
 	25-05-2017
 Staram sie szukaæ podpowiedzi w internecie. Qt Creator wygl¹da na prosty, choc wymaga od ans dosæ du¿o pracy. 
 Mam jednak nadziejê, ¿e do koñca tygodnia damy radê zrobic choæ trochê.
