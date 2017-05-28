@@ -48,7 +48,7 @@ int main(int argc, char **argv) {
     CImg<unsigned char> back(1,2,1,3,10), fore, text, img;
     back.fillC(0,1,0,10,10,235).resize(350,570,1,3,3).get_shared_channel(2).noise(10,1).draw_plasma();
     back.draw_rectangle(0,y0 - 7,back.width() - 1,y0 + 20,red);
-    fore.assign(back.width(),50,1,1,0).draw_text(20,y0 - 3,"Menu przykladowe",grey,0,1,23, //Projekt Grafika?
+    fore.assign(back.width(),50,1,1,0).draw_text(20,y0 - 3,"Projekt Grafika",grey,0,1,23, //zast¹pi³em "Menu Przyk³adowe"
                                                 cimg_version/100,(cimg_version/10)%10,cimg_version%10);
     (fore+=fore.get_dilate(3).dilate(3)).resize(-100,-100,1,3);
     cimg_forXY(fore,x,y)
