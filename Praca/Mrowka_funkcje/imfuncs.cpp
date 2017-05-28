@@ -19,7 +19,7 @@ void insertionSort(int tablica[])
         tablica[j+1] = temp;
     }
 }
-int sharpen(Mat img){
+int sharpen(Mat image){
 	Mat kernel(3,3,CV_32F,cv::Scalar(0));	//rozmiar macierzy teorzacej baze filtra
 					//nalezy teraz ustaliæ wartoœci macierzy dla tworzonego filtra
 	kernel.at(1,1)= 5.0;
@@ -29,38 +29,38 @@ int sharpen(Mat img){
 	kernel.at(1,2)= -1.0;
 
 			//filtrowanie obrazu
-	cv::filter2D(img,img,img.depth(),kernel);
+	cv::filter2D(image,image,image.depth(),kernel);
 
 	namedWindow( "Sharpen5", WINDOW_AUTOSIZE );
-  imshow( "Sharpen5", img );
+  imshow( "Sharpen5", image );
   waitKey(0);
   return 0;
 }
-int blur(Mat src)
+int blur(Mat image)
 {
     Mat next;
-    if( !src.data )
+    if( !image.data )
     {
         return -1;
     }
     //stworzenie tablicy 3x4 do "jezdzenia po obrazku"
     int tablica[9];
-    next = src.clone();                     //przekopiowanie tablicy do drugiej
-    for(int y = 0; y < src.rows; y++)
-        for(int x = 0; x < src.cols; x++)
+    next = image.clone();                     //przekopiowanie tablicy do drugiej
+    for(int y = 0; y < image.rows; y++)
+        for(int x = 0; x < image.cols; x++)
             next.at<uchar>(y,x) = 0.0;
 
-        for(int y = 1; y < src.rows - 1; y++){
-            for(int x = 1; x < src.cols - 1; x++){
-                tablica[0] = src.at<uchar>(y - 1 ,x - 1);
-                tablica[1] = src.at<uchar>(y, x - 1);
-                tablica[2] = src.at<uchar>(y + 1, x - 1);
-                tablica[3] = src.at<uchar>(y - 1, x);
-                tablica[4] = src.at<uchar>(y, x);
-                tablica[5] = src.at<uchar>(y + 1, x);
-                tablica[6] = src.at<uchar>(y - 1, x + 1);
-                tablica[7] = src.at<uchar>(y, x + 1);
-                tablica[8] = src.at<uchar>(y + 1, x + 1);
+        for(int y = 1; y < image.rows - 1; y++){
+            for(int x = 1; x < image.cols - 1; x++){
+                tablica[0] = image.at<uchar>(y - 1 ,x - 1);
+                tablica[1] = image.at<uchar>(y, x - 1);
+                tablica[2] = image.at<uchar>(y + 1, x - 1);
+                tablica[3] = image.at<uchar>(y - 1, x);
+                tablica[4] = image.at<uchar>(y, x);
+                tablica[5] = image.at<uchar>(y + 1, x);
+                tablica[6] = image.at<uchar>(y - 1, x + 1);
+                tablica[7] = image.at<uchar>(y, x + 1);
+                tablica[8] = image.at<uchar>(y + 1, x + 1);
                 insertionSort(tablica);
                 // przypisanie mediany do wyorodkowanego elementu tablicy
                 next.at<uchar>(y,x) = tablica[4];
@@ -70,11 +70,12 @@ int blur(Mat src)
         namedwindow("final");
         imshow("final", next);
         namedwindow("initial");
-        imshow("initial", src);
+        imshow("initial", image);
         return 0;
 }
 
 int contrast_change (Mat image)
+{
 {
 	Mat new_image = Mat::zeros( image.size(), imge.type() ); 				//tworzenie nowego obrazu, wype³nionego zerami, o takim samym rozmiarze i typie jak wczytywany
 	double change;
