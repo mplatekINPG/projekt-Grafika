@@ -62,3 +62,27 @@ int blur(Mat src)
         imshow("initial", src);
         return 0;
 }
+
+int contrast_change (Mat image)
+{
+	Mat new_image = Mat::zeros( image.size(), imge.type() ); 				//tworzenie nowego obrazu, wype³nionego zerami, o takim samym rozmiarze i typie jak wczytywany
+	double change;
+	cout<<"Prosze podac wartosc zmiany kontastu.\n"<<
+	<<"Wartosci wieksze od 1 powoduja zwiekszenie, a miedzy 0 a 1 zmniejszenie kontrastu\n";		//informacja o zmianie kontrastu
+	cin>>change;										//wczytanie czynnika zmiany
+
+	for (int x = 0; x < image.rows; x++)
+		for (int y = 0; y < image.cols; y++)						//image.rows i image.cols sa obiektami biblioteki cv, kore przechowuja rozmiar obrazu
+		{
+			new_image[x][y] = image[x][y] * change;
+			new_image[x][y] = static_cast<int>(new_image[x][y]);			//zaokr¹glenie wartoœci do int
+
+			if (new_image[x][y] > 255)
+				new_image[x][y] = 255;
+
+			if (new_image[x][y] < 0)
+				new_image[x][y] = 0;
+		}
+    imshow("final", new_image);
+	return 0;
+}
