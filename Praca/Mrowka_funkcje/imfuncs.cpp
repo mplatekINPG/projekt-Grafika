@@ -25,4 +25,40 @@ int sharpen(Mat img){
   waitKey(0);
   return 0;
 }
+int blur(Mat src)
+{
+    Mat next;
+    if( !src.data )
+    {
+        return -1;
+    }
+    //stworzenie tablicy 3x4 do "jezdzenia po obrazku"
+    int tablica[9];
+    next = src.clone();                     //przekopiowanie tablicy do drugiej
+    for(int y = 0; y < src.rows; y++)
+        for(int x = 0; x < src.cols; x++)
+            next.at<uchar>(y,x) = 0.0;
 
+        for(int y = 1; y < src.rows - 1; y++){
+            for(int x = 1; x < src.cols - 1; x++){
+                tablica[0] = src.at<uchar>(y - 1 ,x - 1);
+                tablica[1] = src.at<uchar>(y, x - 1);
+                tablica[2] = src.at<uchar>(y + 1, x - 1);
+                tablica[3] = src.at<uchar>(y - 1, x);
+                tablica[4] = src.at<uchar>(y, x);
+                tablica[5] = src.at<uchar>(y + 1, x);
+                tablica[6] = src.at<uchar>(y - 1, x + 1);
+                tablica[7] = src.at<uchar>(y, x + 1);
+                tablica[8] = src.at<uchar>(y + 1, x + 1);
+                insertionSort(tablica);
+                // przypisanie mediany do wyorodkowanego elementu tablicy
+                next.at<uchar>(y,x) = tablica[4];
+            }
+        }
+        //wyowietlenie obu obrazków
+        namedwindow("final");
+        imshow("final", next);
+        namedwindow("initial");
+        imshow("initial", src);
+        return 0;
+}
