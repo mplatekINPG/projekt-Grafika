@@ -1,0 +1,2 @@
+
+void insertionSort(int tablica[]);
