@@ -21,6 +21,14 @@ void* item_blurring_gradient() {
     }
 }
 
+void start_item(const unsigned int demo_number) {
+  switch (demo_number) {
+  case 1: item_blurring_gradient(); break;
+
+  default: break;
+  }
+}
+
 int main(int argc, char **argv) {
 
   return 0;
