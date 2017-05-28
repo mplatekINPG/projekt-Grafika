@@ -8,6 +8,17 @@
 using namespace std;
 using namespace cv;
 
+void insertionSort(int tablica[])
+{
+    int temp, i , j;
+    for(i = 0; i < 9; i++){
+        temp = tablica[i];
+        for(j = i-1; j >= 0 && temp < tablica[j]; j--){
+            tablica[j+1] = tablica[j];
+        }
+        tablica[j+1] = temp;
+    }
+}
 int sharpen(Mat img){
 	Mat kernel(3,3,CV_32F,cv::Scalar(0));	//rozmiar macierzy teorzacej baze filtra
 					//nalezy teraz ustaliæ wartoœci macierzy dla tworzonego filtra
@@ -86,3 +97,4 @@ int contrast_change (Mat image)
     imshow("final", new_image);
 	return 0;
 }
+
