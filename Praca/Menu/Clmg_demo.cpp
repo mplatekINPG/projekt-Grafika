@@ -60,7 +60,7 @@ int main(int argc, char **argv) {
         fore(x,y,2) = (unsigned char)(val/1.1f);
       }
     text.draw_text(1,1,
-                   "Przykladowa funkcja 1\n"
+                   "Rozmycie obrazu\n"
                    "Przykladowa funkcja 2\n"
           ,
                    white,0,1,18).resize(-100,-100,1,3);
