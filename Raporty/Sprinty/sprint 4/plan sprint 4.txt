@@ -1,7 +1,9 @@
-W sprincie czwartym, który planowany jest jako ostatni sprint w naszym projekcie, planujemy dokończyć interfejs oraz połączyć go z funkcjami filtrów, tak aby stworzyć w pełni funkcjonalny program, który zajmie sie nałożeniem filtrów na pliki obrazów.
+W sprincie czwartym, który planowany jest jako ostatni sprint w naszym projekcie, planujemy dokończyć interfejs oraz połączyć go z 
+funkcjami filtrów, tak aby stworzyć w pełni funkcjonalny program, który zajmie sie nałożeniem filtrów na pliki obrazów.
 
 Działaniem nad interfejsem zajmą się Mateusz i Filip.
 
-Reszta zespołu będzie pracować nad poprawieniem kodu, optymalizacją i usunięciem ewentualnych błędów, na koniec cały zespół bedzie pracował nad połączeniem wszystkiego w jedną całość, tak aby zakończyć projekt.
+Reszta zespołu będzie pracować nad poprawieniem kodu, optymalizacją i usunięciem ewentualnych błędów, na koniec cały zespół bedzie 
+pracował nad połączeniem wszystkiego w jedną całość, tak aby zakończyć projekt.
 
-Scrum Master - Kamil Szostek przygotuje raport
+Kamil Szostek i Radosław Król przygotują raport
