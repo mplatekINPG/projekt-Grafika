@@ -98,4 +98,18 @@ int contrast_change (Mat image)
     imshow("final", new_image);
 	return 0;
 }
+int sepia (Mat img)
+{
+
+Mat_<float> sepia(3,3); 
+
+sepia << .131,.534,.272    //wartoœci najczesciej uzywane w uzyskiwaniu sepii
+        ,.168,.686,.349
+        ,.189,.769,.393;
+Mat out;
+cv::transform(img,out,sepia);
+imshow("i",out);
+waitKey();
+  return 0;
+}
 
