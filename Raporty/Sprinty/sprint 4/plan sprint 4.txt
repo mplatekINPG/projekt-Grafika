@@ -6,4 +6,4 @@ Działaniem nad interfejsem zajmą się Mateusz i Filip.
 Reszta zespołu będzie pracować nad poprawieniem kodu, optymalizacją i usunięciem ewentualnych błędów, na koniec cały zespół bedzie 
 pracował nad połączeniem wszystkiego w jedną całość, tak aby zakończyć projekt.
 
-Kamil Szostek i Radosław Król przygotują raport
+Kamil Szostek i Radosław Król przygotują raport projektu
