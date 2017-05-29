@@ -35,7 +35,9 @@ CVAPI(void) cvFilter2D( const CvArr* src, CvArr* dst, const CvMat* kernel,
 Mat img = imread("lena.jpg");
 Mat_<float> sepia(3,3); 
 
-sepia << //nale¿y znaleŸæ najlepsze wartoœci do macierzy odpowiedialne za filtr;
+sepia << .131,.534,.272    //wartoœci najczesciej uzywane w uzyskiwaniu sepii
+        ,.168,.686,.349
+        ,.189,.769,.393;
 Mat out;
 cv::transform(img,out,sepia);
 imshow("i",out);
