@@ -57,3 +57,7 @@ Dziœ dalej bêdê ³aczy³ swoj¹ funkcjê z funkcjami kolegów.
 26.05.2017
 Wczoraj przeprowadzi³em dalsz¹ czêœæ ³¹czenia swojej funkcji z funkcjami kolegów z zespo³u.
 Dziœ przeprowadzê z kolegami z zespo³u koñcowe testy naszych po³¹czonych funkcji oraz dostosujê je do po³¹czenia z interfejsem przygotowywanym prez drug¹ czêœæ zespo³u.
+
+29.05.2017 
+W pi¹tek przeprowadzi³em z kolegami z zespo³u koñcowe testy naszych po³¹czonych funckji oraz dostosowa³em je do po³aczenia z interfejsem przygotowanym przez drug¹ czêœæ zespo³u.
+Dziœ razem z zespo³em podejmiemy próbê po³aczenia funkcji z interfejsem w jedn¹ ca³oœæ.
