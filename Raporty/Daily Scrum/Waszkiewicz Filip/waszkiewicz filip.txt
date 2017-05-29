@@ -26,3 +26,5 @@ Wczoraj zrobilem plan pracy, menu zostanie wykonane w qt, a dzis będę wprowadz
 Wczoraj zacząłem pracować nad tworzeniem menu, dziś będę kontynuował wysiłki.
 	2017-05-26
 Wczoraj dalej pracowałem nad menu bez większych problemów, dziś będę kończył tą część projektu.
+	2017-05-29
+Ostatnio udało mi się skończyć przykładowe menu, dziś będę zaczynał pracę końcowe projektu.
