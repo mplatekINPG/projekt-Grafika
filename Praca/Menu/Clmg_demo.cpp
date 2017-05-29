@@ -1,6 +1,7 @@
 #include "CImg_demo.h"
 
 #include "CImg.h"
+//#include "imfuncs.h"
 using namespace cimg_library;
 #undef min
 #undef max
@@ -23,7 +24,10 @@ void* item_blurring_gradient() {
 
 void start_item(const unsigned int demo_number) {
   switch (demo_number) {
-  case 1: item_blurring_gradient(); break;
+  case 1:  item_blurring_gradient(); break;
+  case 2: /*FUNKCJA ROZMYWANIA*/ break;
+  case 3: /*FUNKCJA WYOSTRZANIA*/ break;
+  case 4: /*FUNKCJA ZMIANY KONTRASTU*/ break;
 
   default: break;
   }
@@ -60,8 +64,9 @@ int main(int argc, char **argv) {
         fore(x,y,2) = (unsigned char)(val/1.1f);
       }
     text.draw_text(1,1,
+                   "Blurring gradient\n"
                    "Rozmycie\n"
-                   "Wyostrzenie"
+                   "Wyostrzenie\n"
                    "Zmiana kontrastu\n"
     
           ,
