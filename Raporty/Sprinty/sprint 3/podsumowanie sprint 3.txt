@@ -1,0 +1,9 @@
+Filip Waszkiewicz i Mateusz Płatek w tym tygodniu zajęli się kwestią stworzenia przyjaznego interfejsu, 
+który obsłużyłby utworzone funkcje i stworzyłby przyjazne środowisko do pracy dla klienta.
+
+Reszta zespołu zmierzyła się z połączeniem wcześniej napisanych filtrów w funkcje, o ustandaryzowanych właściwościach tak aby nie było
+ewentualnych problemów z kompatybilnością.
+
+Dzięki tej pracy projekt nabiera eleganckiej i profesjonalnej formy. Dzięki zmianom przygotowanym reszty zepsołu mozna dokonywać dalszych 
+usprawnień w jednym konkretnym pliku zmiast kilku osobnych. Teraz można rozpocząć końcowe prace nad funkcjonalnością interfejsu 
+i łączeniem go z kodem źródłowym funkcji filtrów.
