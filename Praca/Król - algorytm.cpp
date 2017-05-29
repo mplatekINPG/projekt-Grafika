@@ -26,3 +26,20 @@ int main(){
   waitKey(0);
   return 0;  
 }
+____________________________________________________________________________________________________________________________
+CVAPI(void) cvFilter2D( const CvArr* src, CvArr* dst, const CvMat* kernel,
+                        CvPoint anchor CV_DEFAULT(cvPoint(-1,-1)));
+                        
+//nastêpny filtr potem nast¹pi jego po³¹cznie z plikiem doclowym
+
+Mat img = imread("lena.jpg");
+Mat_<float> sepia(3,3); 
+
+sepia << .131,.534,.272    //wartoœci najczesciej uzywane w uzyskiwaniu sepii
+        ,.168,.686,.349
+        ,.189,.769,.393;
+Mat out;
+cv::transform(img,out,sepia);
+imshow("i",out);
+waitKey();
+

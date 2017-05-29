@@ -16,3 +16,19 @@ plan na dzisiaj - Zamierzam rozpisaæ w USL dzia³anie algorytmu przechodzenia po 
 18-05-2017
 wczoraj - zainstalowa³em biblioteki openCV na moim komputerze, nie z³o¿y³em dziennego raportu gdy¿ wype³nia³em druki zeznania podatkowego dla urzêdu skarbowego.
 plan na dzisiaj - Zamierzam napisaæ pêtle przechodz¹c¹ po wszystkich pikselach.
+
+22-05-2017
+wczoraj - zapozna³em siê z napisanym przez siebie kodem i zoptymalizowa³em go, tak aby zcommitowaæ go na repozytorium
+plan na dzisiaj - dzisiaj zamierzam zapoznaæ siê z wszystkimi funkcjami, tak aby stworzyæ dla nich wspólny header w póŸniejszym czasie
+23-05-2017
+wczoraj - zapozna³em siê z funkcjami dostarczonymi przez resztê zespo³u, aby stworzyæ ich listê
+plan na dzisiaj - zamierzam wyszukaæ i skorygowaæ ró¿nice w implementacji które mog³yby stworzyæ niekompatybilnoœæ w kodzie
+24-05-2017
+wczoraj wyszuka³em ró¿nicê w implementacji które skutkowa³yby niedzia³aniem kodu po przeniesieniu ich do wspólnego kodu
+plan na dzisiaj - zamierzam zamieniæ lokalne referencje w kodzie na odnoœniki do argumentów tak aby mog³y s³u¿yæ jako osobne funkcje
+25-05-2017
+wczoraj - pozamienia³em lokalne referencje w kodzie na odnoœniki do plików tak aby kod móg³ s³u¿yæ jako funkcja.
+dzisiaj - zamierzam dobraæ argumenty do nowopowsta³ych funkcji.
+26-05-2017
+wczoraj - Dobra³em argumenty do funkcji
+dzisiaj - zamierzam przetestowaæ dzia³anie funkcji
