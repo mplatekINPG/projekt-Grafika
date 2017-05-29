@@ -1,57 +1,62 @@
+	29-05-2017
+Ostatnie godziny poprzendiego sprintu byÅ‚y decydujace w wyglÄ…dzie interfejsu. Z Filipem zdecydowaliÅ›my sie na inne 
+rozwiÄ…zanie. W tym tygodniu dobrze bÄ™dzie go dostosowaÄ‡ do naszych potrzeb, ale to ustalimy z nowym Scrum Masterem
+na spotkaniu.
+
 	26-05-2017
-Nie ma problemu z zaprojektowaniem wygl¹du interfejsu. Problem jest z jego funkcjonalnoœci¹. I na tym musimy siê 
-w tym momencie skupiæ.
+Nie ma problemu z zaprojektowaniem wyglÄ…du interfejsu. Problem jest z jego funkcjonalnoÅ›ciÄ…. I na tym musimy siÄ™ 
+w tym momencie skupiÄ‡.
 
 	25-05-2017
-Staram sie szukaæ podpowiedzi w internecie. Qt Creator wygl¹da na prosty, choc wymaga od ans dosæ du¿o pracy. 
-Mam jednak nadziejê, ¿e do koñca tygodnia damy radê zrobic choæ trochê.
+Staram sie szukaÄ‡ podpowiedzi w internecie. Qt Creator wyglÄ…da na prosty, choc wymaga od ans dosÄ‡ duÅ¼o pracy. 
+Mam jednak nadziejÄ™, Å¼e do koÅ„ca tygodnia damy radÄ™ zrobic choÄ‡ trochÄ™.
 
 	24-05-2017
-Nie znalaz³em ¿adnych gotowych szablonów. Jednak odnalezienie programu Qt Creator pozwoli u³atwiæ nam pracê i zrobiæ
-ca³y interfejs samemu. Od dzisiaj sie za to zabieramy.
+Nie znalazÅ‚em Å¼adnych gotowych szablonÃ³w. Jednak odnalezienie programu Qt Creator pozwoli uÅ‚atwiÄ‡ nam pracÄ™ i zrobiÄ‡
+caÅ‚y interfejs samemu. Od dzisiaj sie za to zabieramy.
 
 	23-05-2017
-Zdobycie podstawowej wiedzy o Qt sie przyda³o. Myœle, ¿e dobrym posunieciem dzisiaj bêdzie szukanie szablonu, który 
-mo¿na przerobic i wykorzystaæ w naszym programie.
+Zdobycie podstawowej wiedzy o Qt sie przydaÅ‚o. MyÅ›le, Å¼e dobrym posunieciem dzisiaj bÄ™dzie szukanie szablonu, ktÃ³ry 
+moÅ¼na przerobic i wykorzystaÄ‡ w naszym programie.
 
 	22-05-2017
-Dzisiejsze spotkanie zespo³u by³o owocne. Opracowaliœmy plan na najblizszy tydzieñ, za który zaraz trzeba 
-sie zabraæ. Na pocz¹tek poszukam informaji o interfejsie w Qt. 
+Dzisiejsze spotkanie zespoÅ‚u byÅ‚o owocne. OpracowaliÅ›my plan na najblizszy tydzieÅ„, za ktÃ³ry zaraz trzeba 
+sie zabraÄ‡. Na poczÄ…tek poszukam informaji o interfejsie w Qt. 
 
 	19-05-2017
-Algorytm jest prawie gotowy. Spe³nia moje oczekiwania, musi tylko przejœæ fazê testu. Ale wczeœniej postaram siê 
-go bardziej dopracowaæ.
+Algorytm jest prawie gotowy. SpeÅ‚nia moje oczekiwania, musi tylko przejÅ›Ä‡ fazÄ™ testu. Ale wczeÅ›niej postaram siÄ™ 
+go bardziej dopracowaÄ‡.
 
 	18-05-2017
-Dzisiaj rozpoczynam pracê nad algorytmem. Wczoraj zebra³em potrzebne informacje, które od dzisiaj musze zmieniaæ
+Dzisiaj rozpoczynam pracÄ™ nad algorytmem. Wczoraj zebraÅ‚em potrzebne informacje, ktÃ³re od dzisiaj musze zmieniaÄ‡
 w kod c++. 
 
 	17-05-2017
-Planowana na wczoraj instalacja biblioteki nie przebieg³a pomyœlnie. Dzisiaj musze to zrobiæ z pomoc¹ Scrum mastera. 
-Pomimo tego, mam ju¿ pomys³ na algorytm.
+Planowana na wczoraj instalacja biblioteki nie przebiegÅ‚a pomyÅ›lnie. Dzisiaj musze to zrobiÄ‡ z pomocÄ… Scrum mastera. 
+Pomimo tego, mam juÅ¼ pomysÅ‚ na algorytm.
 
 	16-05-2017
-Postanowi³em wybraæ filtr zwiêkszania i zmniejszania kontrastu. Dzisiaj muszê pobraæ bibliotekê openCV, poprawnie j¹
-zainstalowaæ i rozpocz¹æ pracê z kodem.
+PostanowiÅ‚em wybraÄ‡ filtr zwiÄ™kszania i zmniejszania kontrastu. Dzisiaj muszÄ™ pobraÄ‡ bibliotekÄ™ openCV, poprawnie jÄ…
+zainstalowaÄ‡ i rozpoczÄ…Ä‡ pracÄ™ z kodem.
 
 	15-05-2017	
-Dzisiejsze spotkanie podsumowujace sprint da³o dobre wyniki. Zaplanowaliœmy pracê i mo¿emy siê za ni¹ zabraæ.
-Teraz nadesz³¹ pora wyboru filtra.
+Dzisiejsze spotkanie podsumowujace sprint daÅ‚o dobre wyniki. ZaplanowaliÅ›my pracÄ™ i moÅ¼emy siÄ™ za niÄ… zabraÄ‡.
+Teraz nadeszÅ‚Ä… pora wyboru filtra.
 
 	12-05-2017	
-Zosta³ ostatni dzieñ na poznanie ró¿nych bibliotek. Muszê dzisiaj wybraæ ostateczn¹ i porozumieæ siê z reszt¹ grupy,
-któr¹ wybierzemy do projektu.
+ZostaÅ‚ ostatni dzieÅ„ na poznanie rÃ³Å¼nych bibliotek. MuszÄ™ dzisiaj wybraÄ‡ ostatecznÄ… i porozumieÄ‡ siÄ™ z resztÄ… grupy,
+ktÃ³rÄ… wybierzemy do projektu.
 	
 	11-05-2017	
-Musze poznaæ wiêcej opcji z openCV. Spróbujê równie¿ wybraæ pewien filtr na póŸniejsz¹ pracê. Pod koniec postaram
-siê znaleŸæ jeszcze przynajmniej jedn¹ bibliotekê, któr¹ mo¿na wykorzystaæ do projektu.
+Musze poznaÄ‡ wiÄ™cej opcji z openCV. SprÃ³bujÄ™ rÃ³wnieÅ¼ wybraÄ‡ pewien filtr na pÃ³ÅºniejszÄ… pracÄ™. Pod koniec postaram
+siÄ™ znaleÅºÄ‡ jeszcze przynajmniej jednÄ… bibliotekÄ™, ktÃ³rÄ… moÅ¼na wykorzystaÄ‡ do projektu.
 	
 	10-05-2017	
-Znalaz³em bibliotekê openCV. Dzisiaj muszê sie z ni¹ lepiej zaznajomiæ.
+ZnalazÅ‚em bibliotekÄ™ openCV. Dzisiaj muszÄ™ sie z niÄ… lepiej zaznajomiÄ‡.
 	
 	09-05-2017
-Niektórzy ci¹gle maj¹ problemy z gitem, które trzeba na bie¿¹co rozwi¹zywaæ. Dzisiaj zaczynam szukaæ informacji 
+NiektÃ³rzy ciÄ…gle majÄ… problemy z gitem, ktÃ³re trzeba na bieÅ¼Ä…co rozwiÄ…zywaÄ‡. Dzisiaj zaczynam szukaÄ‡ informacji 
 o odpowiedniej bilbiotece cpp.
 
 	08-05-2017
-Dzisiaj trzeba zaplanowac sprinty i rozpisaæ zadania na ca³y projekt.
+Dzisiaj trzeba zaplanowac sprinty i rozpisaÄ‡ zadania na caÅ‚y projekt.
