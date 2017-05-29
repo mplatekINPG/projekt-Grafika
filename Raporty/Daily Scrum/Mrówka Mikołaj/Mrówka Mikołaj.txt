@@ -32,3 +32,6 @@ dzisiaj - zamierzam dobraæ argumenty do nowopowsta³ych funkcji.
 26-05-2017
 wczoraj - Dobra³em argumenty do funkcji
 dzisiaj - zamierzam przetestowaæ dzia³anie funkcji
+29-05-2017
+wczoraj - Zcommitowa³em funkcjê po³¹czone w jeden plik cpp
+dzisiaj - Przej¿ê kod w poszukiwaniu linijek które mo¿na zoptymalizowaæ
