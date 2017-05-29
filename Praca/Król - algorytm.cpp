@@ -29,4 +29,13 @@ int main(){
 ____________________________________________________________________________________________________________________________
 CVAPI(void) cvFilter2D( const CvArr* src, CvArr* dst, const CvMat* kernel,
                         CvPoint anchor CV_DEFAULT(cvPoint(-1,-1)));
+                        
+//nastêpny filtr potem nast¹pi jego po³¹cznie z plikiem doclowym
+
+Mat img = imread("lena.jpg");
+Mat_<float> sepia(3,3); 
+
+sepia << 
+imshow("i",out);
+waitKey();
 
