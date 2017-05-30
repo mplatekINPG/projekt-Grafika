@@ -1,8 +1,14 @@
 #include "CImg_demo.h"
 
 #include "CImg.h"
-//#include "imfuncs.h"
+#include "imfuncs.h"
 using namespace cimg_library;
+
+#include <opencv2/opencv.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+
 #undef min
 #undef max
 
@@ -24,10 +30,12 @@ void* item_blurring_gradient() {
 
 void start_item(const unsigned int demo_number) {
   switch (demo_number) {
-  case 1:  item_blurring_gradient(); break;
+  case 1:  /*WCZYTYWANIE OBRAZU */ /*item_blurring_gradient(); */ break;
   case 2: /*FUNKCJA ROZMYWANIA*/ break;
   case 3: /*FUNKCJA WYOSTRZANIA*/ break;
   case 4: /*FUNKCJA ZMIANY KONTRASTU*/ break;
+  case 5: /*SEPIA*/ break;
+  case 6: /*ZAPISYWANIE*/ break;
 
   default: break;
   }
@@ -64,10 +72,13 @@ int main(int argc, char **argv) {
         fore(x,y,2) = (unsigned char)(val/1.1f);
       }
     text.draw_text(1,1,
+                   "Wczytaj obraz\n"
                    "Blurring gradient\n"
                    "Rozmycie\n"
                    "Wyostrzenie\n"
                    "Zmiana kontrastu\n"
+                   "Sepia\n"
+                   "Zapisz obraz\n"
     
           ,
                    white,0,1,18).resize(-100,-100,1,3);
