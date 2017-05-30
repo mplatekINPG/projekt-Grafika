@@ -8,6 +8,22 @@
 using namespace std;
 using namespace cv;
 
+void ImageLoad (Mat * image)
+{
+	*image = imread("lena.bmp", CV_LOAD_IMAGE_COLOR);
+}
+
+void ImageSave (Mat * image)
+{
+	cout<<"Podaj nazwe nowego pliku\n";
+	char *name = new char[50];
+	cin>>name;
+	int test = cvSaveImage(name, image);
+	if (test = 1) return;
+	else cout<<"BLAD ZAPISU";
+	return;
+}
+
 void insertionSort(int tablica[])
 {
     int temp, i , j;
