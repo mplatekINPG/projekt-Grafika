@@ -1,3 +1,9 @@
-1. optymalizacja kodu - Mateusz, Miko�aj, Radek, kamil
-2. opracowanie menu - Filip
+W sprincie czwartym, który planowany jest jako ostatni sprint w naszym projekcie, planujemy dokończyć interfejs oraz połączyć go z 
+funkcjami filtrów, tak aby stworzyć w pełni funkcjonalny program, który zajmie sie nałożeniem filtrów na pliki obrazów.
 
+Działaniem nad interfejsem zajmą się Mateusz i Filip.
+
+Reszta zespołu będzie pracować nad poprawieniem kodu, optymalizacją i usunięciem ewentualnych błędów, na koniec cały zespół bedzie 
+pracował nad połączeniem wszystkiego w jedną całość, tak aby zakończyć projekt.
+
+Kamil Szostek i Radosław Król przygotują raport projektu

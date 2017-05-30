@@ -37,3 +37,6 @@
 26.05.2017
 	Wczoraj: filtr praktycznie na ukoñczeniu.
 	Dziœ: Ostanie poprawki, testy. 
+27.05.2017
+	Wczeœniej: projekt wymga jeszcze lekkich poprawek
+	Dziœ:Przygotowanie siê do tygodniowego scruma
