@@ -28,3 +28,5 @@ Wczoraj zacząłem pracować nad tworzeniem menu, dziś będę kontynuował wysi
 Wczoraj dalej pracowałem nad menu bez większych problemów, dziś będę kończył tą część projektu.
 	2017-05-29
 Ostatnio udało mi się skończyć przykładowe menu, dziś będę zaczynał pracę końcowe projektu.
+	2017-05-30
+Wczoraj zacząłem pracę nad finalizacją projektu, dziś będę kontynuował wysiłki.
