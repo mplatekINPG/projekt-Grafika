@@ -61,3 +61,7 @@ Dziœ przeprowadzê z kolegami z zespo³u koñcowe testy naszych po³¹czonych funkcji
 29.05.2017 
 W pi¹tek przeprowadzi³em z kolegami z zespo³u koñcowe testy naszych po³¹czonych funckji oraz dostosowa³em je do po³aczenia z interfejsem przygotowanym przez drug¹ czêœæ zespo³u.
 Dziœ razem z zespo³em podejmiemy próbê po³aczenia funkcji z interfejsem w jedn¹ ca³oœæ.
+
+30.05.2017
+Wczoraj wraz z zespo³em podj¹³em próbê po³aczenia funkcji z interfejsem w jecn¹ ca³oœæ.
+Poniewa¿ wczorajsze zadanie okaza³o siê zbyt trudne i pracacoch³onne nie uda³o siê nam go dokoñczyæ. Dziœ przeprowadzimy dalsz¹ czêœæ po³aczenia funkcji z interfejsem w jecn¹ ca³oœæ.
