@@ -1,3 +1,6 @@
+﻿	30-05-2017
+Najbliższe dni bedą cieżkie. Od dzisiaj już pracujemy nad kodem, żeby go doprowadzić do ładnej postaci. 
+
 	29-05-2017
 Ostatnie godziny poprzendiego sprintu były decydujace w wyglądzie interfejsu. Z Filipem zdecydowaliśmy sie na inne 
 rozwiązanie. W tym tygodniu dobrze będzie go dostosować do naszych potrzeb, ale to ustalimy z nowym Scrum Masterem
