@@ -43,12 +43,9 @@
 28.05.2017
 	wczoraj: stworzenie planu scruma na ten tydzieñ, ustalenie wymaganych poprawek.
 	dziœ Rozpoczêcie prac nad sprawozdaniem - stworzenie planu co sie w nim zawrze.
-
-
-
-
-
-
+29.05.2017
+	Wczoraj: Ogólna koncepcja sprawozdania zosta³a stworzona ju¿ i ustalona z drug¹ osob¹ za nie odpowiedzialn¹.
+	Dziœ: Poprawa b³êdów zg³oszonych przez innych cz³onków zespo³u, znalezionych w moim kodzie.
 
 
 
