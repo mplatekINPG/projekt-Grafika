@@ -1,4 +1,8 @@
-﻿	30-05-2017
+﻿	31-05-2017
+Nieustannie pracujemy nad kodem. Nie wszystkie zmiany wrzucamy od razu na repozytorium, żeby nie pracować nad 
+niedziałajacym programem i nie robić chaosu.
+
+	30-05-2017
 Najbliższe dni bedą cieżkie. Od dzisiaj już pracujemy nad kodem, żeby go doprowadzić do ładnej postaci. 
 
 	29-05-2017
