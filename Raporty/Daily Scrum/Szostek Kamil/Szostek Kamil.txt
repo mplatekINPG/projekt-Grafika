@@ -64,4 +64,8 @@ Dziœ razem z zespo³em podejmiemy próbê po³aczenia funkcji z interfejsem w jedn¹ 
 
 30.05.2017
 Wczoraj wraz z zespo³em podj¹³em próbê po³aczenia funkcji z interfejsem w jecn¹ ca³oœæ.
-Poniewa¿ wczorajsze zadanie okaza³o siê zbyt trudne i pracacoch³onne nie uda³o siê nam go dokoñczyæ. Dziœ przeprowadzimy dalsz¹ czêœæ po³aczenia funkcji z interfejsem w jecn¹ ca³oœæ.
+Poniewa¿ wczorajsze zadanie okaza³o siê zbyt trudne i pracoch³onne nie uda³o siê nam go dokoñczyæ. Dziœ przeprowadzimy dalsz¹ czêœæ po³aczenia funkcji z interfejsem w jedn¹ ca³oœæ.
+
+31.05.2017
+Wczoraj przeprowadziliœmy dalsz¹ czêœæ po³aczenia funkcji z interfejsem w jedn¹ ca³oœæ.
+Dziœ przeprowadzimy wstêpne testy ca³ego programu.
