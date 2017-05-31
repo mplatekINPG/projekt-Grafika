@@ -11,10 +11,10 @@ using namespace cv;
 void ImageLoad (Mat * image)
 {
 	*image = imread("lena.bmp", CV_LOAD_IMAGE_COLOR);
-	if (*image == NULL)
+	if (image == NULL)
 	{	cout<<"BLAD WCZYTYWANIA"; return;}
 	namedWindow("Color Image", WINDOW_AUTOSIZE);
-    imshow("Color Image", image1);
+    imshow("Color Image", image);
 }
 
 void ImageSave (Mat * image)
