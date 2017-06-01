@@ -96,7 +96,6 @@ int blur(Mat image)
 
 int contrast_change (Mat image)
 {
-{
 	Mat new_image = Mat::zeros( image.size(), imge.type() ); 				//tworzenie nowego obrazu, wype³nionego zerami, o takim samym rozmiarze i typie jak wczytywany
 	double change;
 	cout<<"Prosze podac wartosc zmiany kontastu.\n"<<
