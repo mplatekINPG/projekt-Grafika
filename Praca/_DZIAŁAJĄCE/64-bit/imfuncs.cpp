@@ -18,14 +18,14 @@ void ImageLoad (Mat * image)
 }
 
 void ImageSave (Mat * image)
-{
+/*{
 	cout<<"Podaj nazwe nowego pliku\n";
 	char *name = new char[50];
 	cin>>name;
 	cvSaveImage(name, *image);
 	delete [] name;
 	return;
-}
+}*/
 
 void insertionSort(int tablica[])
 {
