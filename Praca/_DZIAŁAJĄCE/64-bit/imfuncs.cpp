@@ -14,7 +14,7 @@ void ImageLoad (Mat * image)
 	if (image == NULL)
 	{	cout<<"BLAD WCZYTYWANIA"; return;}
 	namedWindow("Color Image", WINDOW_AUTOSIZE);
-    imshow("Color Image", image);
+    imshow("Color Image", *image);
 }
 
 void ImageSave (Mat * image)
@@ -22,7 +22,8 @@ void ImageSave (Mat * image)
 	cout<<"Podaj nazwe nowego pliku\n";
 	char *name = new char[50];
 	cin>>name;
-	int test = cvSaveImage(name, image);
+	int test = cvSaveImage(name, *image);
+	delete [] name;
 	if (test = 1) return;
 	else cout<<"BLAD ZAPISU";
 	return;
