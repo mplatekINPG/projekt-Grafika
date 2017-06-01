@@ -41,11 +41,11 @@ void insertionSort(int tablica[])
 int sharpen(Mat image){
 	Mat kernel(3,3,CV_32F,cv::Scalar(0));	//rozmiar macierzy teorzacej baze filtra
 					//nalezy teraz ustaliæ wartoœci macierzy dla tworzonego filtra
-	kernel.at(1,1)= 5.0;
-	kernel.at(0,1)= -1.0;
-	kernel.at(2,1)= -1.0;
-	kernel.at(1,0)= -1.0;
-	kernel.at(1,2)= -1.0;
+	kernel.at<double>(1,1)= 5.0;
+	kernel.at<double>(0,1)= -1.0;
+	kernel.at<double>(2,1)= -1.0;
+	kernel.at<double>(1,0)= -1.0;
+	kernel.at<double>(1,2)= -1.0;
 
 			//filtrowanie obrazu
 	cv::filter2D(image,image,image.depth(),kernel);
