@@ -22,10 +22,8 @@ void ImageSave (Mat * image)
 	cout<<"Podaj nazwe nowego pliku\n";
 	char *name = new char[50];
 	cin>>name;
-	int test = cvSaveImage(name, *image);
+	cvSaveImage(name, *image);
 	delete [] name;
-	if (test = 1) return;
-	else cout<<"BLAD ZAPISU";
 	return;
 }
 
