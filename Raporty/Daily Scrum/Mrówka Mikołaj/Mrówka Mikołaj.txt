@@ -41,3 +41,6 @@ dzisiaj - skonsultujê siê z zespo³em pracuj¹cym nad sterowaniem, nad potrzebami 
 31-05-2017
 wczoraj - skonsultowa³em siê z zespo³em pracuj¹cym nad sterowaniem, nad potrzebami zmian w funkcjach
 dzisiaj -  dokona³em potrzebnymch zmian których domaga³ siê zespó³ pracuj¹cy nad sterowaniem
+01-06-2017
+wczoraj - dokona³em zmian w kodzie których wymaga³ zespó³ pracuj¹cy nad menu
+dzisiaj -  poszukam metod optymalizacji kodu w ramach dokonanych wczeœniej zmian
