@@ -8,13 +8,15 @@
 using namespace std;
 using namespace cv;
 
-void ImageLoad (Mat * image)
+Mat ImageLoad ()
 {
-	*image = imread("lena.bmp", CV_LOAD_IMAGE_COLOR);
+	Mat image;
+	image = imread("lena.bmp", CV_LOAD_IMAGE_COLOR);
 	if (image == NULL)
 	{	cout<<"BLAD WCZYTYWANIA"; return;}
 	namedWindow("Color Image", WINDOW_AUTOSIZE);
-    imshow("Color Image", *image);
+    imshow("Color Image", image);
+    return image;
 }
 
 void ImageSave (Mat * image)
