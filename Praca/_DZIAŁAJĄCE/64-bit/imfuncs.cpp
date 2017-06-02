@@ -12,8 +12,8 @@ Mat ImageLoad ()
 {
 	Mat image;
 	image = imread("lena.bmp", CV_LOAD_IMAGE_COLOR);
-	if (image == NULL)
-	{	cout<<"BLAD WCZYTYWANIA"; return;}
+	if ( !image.data ) 
+	{cout<<"BLAD WCZYTYWANIA"; return -1;}
 	namedWindow("Color Image", WINDOW_AUTOSIZE);
     imshow("Color Image", image);
     return image;
