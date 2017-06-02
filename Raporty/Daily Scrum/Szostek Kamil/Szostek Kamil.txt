@@ -73,3 +73,7 @@ Dziś przeprowadzimy wstępne testy całego programu.
 01.06.2017
 Wczoraj przeprowadziliśmy wstępne testy całego programu.
 Dziś przeprowadzimy kolejną fazę testów naszego programu.
+
+02.06.2017
+Wczoraj przeprowadziliśmy kolejną fazę testów naszego programu.
+W poniedziałek oddamy w pełni funkcjonalny program wraz z najlepiej sporządzonym raportem w ręce naszego zleceniodawcy.
