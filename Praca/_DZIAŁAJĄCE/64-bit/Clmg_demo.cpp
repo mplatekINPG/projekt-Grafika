@@ -45,7 +45,7 @@ int main(int argc, char **argv) {
 
 //	Mat image; 
   unsigned int demo_number = cimg_option("-run",0,0);
-  if (demo_number) start_item(demo_number, image);
+  if (demo_number) start_item(demo_number);
   else {
     cimg::info();
 
