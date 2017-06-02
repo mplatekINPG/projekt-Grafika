@@ -124,7 +124,7 @@ int main(int argc, char **argv) {
         if (disp.button()) { demo_number = 1 + (disp.mouse_y() - y0)/18; disp.set_button(); }
         disp.resize(disp,false).display(img).wait(25);
       }
-      start_item(demo_number, image);
+      start_item(demo_number);
     }
   }
 

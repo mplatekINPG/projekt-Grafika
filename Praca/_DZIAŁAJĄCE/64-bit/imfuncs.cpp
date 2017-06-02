@@ -40,7 +40,7 @@ void insertionSort(int tablica[])
         tablica[j+1] = temp;
     }
 }
-int sharpen(Mat image)
+int sharpen()
 {
 	Mat image = ImageLoad();
 	Mat kernel(3,3,CV_32F,cv::Scalar(0));	//rozmiar macierzy teorzacej baze filtra
@@ -60,7 +60,7 @@ int sharpen(Mat image)
   return 0;
 }
 
-int blur(Mat image)
+int blur()
 {
 	Mat image = LoadImage();
     Mat next;
@@ -99,7 +99,7 @@ int blur(Mat image)
         return 0;
 }
 
-int contrast_change (Mat image)
+int contrast_change ()
 {
 	Mat image = LoadImage();
 	Mat new_image = Mat::zeros( image.size(), image.type() ); 				//tworzenie nowego obrazu, wype³nionego zerami, o takim samym rozmiarze i typie jak wczytywany
@@ -125,7 +125,8 @@ int contrast_change (Mat image)
     imshow("final", new_image);
 	return 0;
 }
-int sepia (Mat img)
+
+int sepia ()
 {
 Mat img = LoadImage();
 Mat_<float> sepia(3,3); 
