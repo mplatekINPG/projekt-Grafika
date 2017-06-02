@@ -28,14 +28,14 @@ void* item_blurring_gradient() {
     }
 }
 
-void start_item(const unsigned int demo_number) {
+void start_item(const unsigned int demo_number, Mat * image) {
   switch (demo_number) {
-  case 1:  /*WCZYTYWANIE OBRAZU */ /*item_blurring_gradient(); */ break;
-  case 2: /*FUNKCJA ROZMYWANIA*/ break;
-  case 3: /*FUNKCJA WYOSTRZANIA*/ break;
-  case 4: /*FUNKCJA ZMIANY KONTRASTU*/ break;
-  case 5: /*SEPIA*/ break;
-  case 6: /*ZAPISYWANIE*/ break;
+  case 1: ImageLoad(image); /*WCZYTYWANIE OBRAZU */ /*item_blurring_gradient(); */ break;
+  case 2: blur(*image);/*FUNKCJA ROZMYWANIA*/ break;
+  case 3: sharpen(*image);/*FUNKCJA WYOSTRZANIA*/ break;
+  case 4: contrast_change(*image);/*FUNKCJA ZMIANY KONTRASTU*/ break;
+  case 5: sepia(*image);/*SEPIA*/ break;
+  case 6: ImageSave(image);/*ZAPISYWANIE*/ break;
 
   default: break;
   }
@@ -43,8 +43,9 @@ void start_item(const unsigned int demo_number) {
 
 int main(int argc, char **argv) {
 
+	Mat *image; 
   unsigned int demo_number = cimg_option("-run",0,0);
-  if (demo_number) start_item(demo_number);
+  if (demo_number) start_item(demo_number, image);
   else {
     cimg::info();
 
@@ -123,7 +124,7 @@ int main(int argc, char **argv) {
         if (disp.button()) { demo_number = 1 + (disp.mouse_y() - y0)/18; disp.set_button(); }
         disp.resize(disp,false).display(img).wait(25);
       }
-      start_item(demo_number);
+      start_item(demo_number, image);
     }
   }
 
