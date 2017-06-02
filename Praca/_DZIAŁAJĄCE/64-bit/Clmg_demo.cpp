@@ -33,8 +33,10 @@ void start_item(const unsigned int demo_number) {
   //case 1: image = ImageLoad(); /*WCZYTYWANIE OBRAZU */ /*item_blurring_gradient(); */ break;
   case 1: blur();/*FUNKCJA ROZMYWANIA*/ break;
   case 2: sharpen();/*FUNKCJA WYOSTRZANIA*/ break;
-  case 3: contrast_change();/*FUNKCJA ZMIANY KONTRASTU*/ break;
-  case 4: sepia();/*SEPIA*/ break;
+  case 3: contrast_change(2.0);/*FUNKCJA ZMIANY KONTRASTU*/ break;
+  case 4: contrast_change(0.5); break;
+  case 5: sepia();/*SEPIA*/ break;
+  case 6: brigthness_change (50.0); break;
   //case 6: ImageSave(&image);/*ZAPISYWANIE*/ break;
 
   default: break;
@@ -74,18 +76,20 @@ int main(int argc, char **argv) {
       }
     text.draw_text(1,1,
                    //"Wczytaj obraz\n"
-                   "Blur\n"
+                   //"Blur\n"
                    "Rozmycie\n"
                    "Wyostrzenie\n"
-                   "Zmiana kontrastu\n"
+                   "Zwiekszenie kontrastu\n"
+                   "Zmniejszenie kontrastu\n"
                    "Sepia\n"
+				   "Zwiekszenie jasnosci\n"
                    //"Zapisz obraz\n"
     
           ,
                    white,0,1,18).resize(-100,-100,1,3);
     fore.resize(back,0).draw_image(20,y0 + 3*13,text|=text.get_dilate(3)>>4);
 
-    CImgDisplay disp(back,"CImg Library Samples",0,false,true);
+    CImgDisplay disp(back,"Projekt Grafika",0,false,true);
     disp.move((disp.screen_width() - disp.window_width())/2,(disp.screen_height() - disp.window_height())/2);
     img = back; back*=0.15f;
     for (y0+=3*13; !disp.is_closed() && !disp.is_keyQ() && !disp.is_keyESC(); demo_number = 0) {
