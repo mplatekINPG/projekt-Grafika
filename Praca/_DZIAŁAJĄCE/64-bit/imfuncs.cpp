@@ -13,13 +13,13 @@ Mat ImageLoad ()
 	Mat image;
 	image = imread("lena.bmp", CV_LOAD_IMAGE_COLOR);
 	if ( !image.data ) 
-	{cout<<"BLAD WCZYTYWANIA"; return -1;}
+	{cout<<"BLAD WCZYTYWANIA";}
 	namedWindow("Color Image", WINDOW_AUTOSIZE);
     imshow("Color Image", image);
     return image;
 }
 
-void ImageSave (Mat * image)
+void ImageSave (Mat * image);
 /*{
 	cout<<"Podaj nazwe nowego pliku\n";
 	char *name = new char[50];
