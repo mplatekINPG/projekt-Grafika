@@ -44,3 +44,6 @@ dzisiaj -  dokona³em potrzebnymch zmian których domaga³ siê zespó³ pracuj¹cy nad
 01-06-2017
 wczoraj - dokona³em zmian w kodzie których wymaga³ zespó³ pracuj¹cy nad menu
 dzisiaj -  poszukam metod optymalizacji kodu w ramach dokonanych wczeœniej zmian
+02-06-2017
+wczoraj - wyszuka³em sposoby optymalizacji kodu funkcji
+dzisiaj - zoptymalizuje kod funkcji
