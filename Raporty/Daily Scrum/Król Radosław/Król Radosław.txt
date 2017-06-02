@@ -37,6 +37,25 @@
 26.05.2017
 	Wczoraj: filtr praktycznie na ukoñczeniu.
 	Dziœ: Ostanie poprawki, testy. 
-27.05.2017
+29.05.2017
 	Wczeœniej: projekt wymga jeszcze lekkich poprawek
 	Dziœ:Przygotowanie siê do tygodniowego scruma
+30.05.2017
+	wczoraj: stworzenie planu scruma na ten tydzieñ, ustalenie wymaganych poprawek.
+	dziœ Rozpoczêcie prac nad sprawozdaniem - stworzenie planu co sie w nim zawrze.
+31.05.2017
+	Wczoraj: Ogólna koncepcja sprawozdania zosta³a stworzona ju¿ i ustalona z drug¹ osob¹ za nie odpowiedzialn¹.
+	Dziœ: Poprawa b³êdów zg³oszonych przez innych cz³onków zespo³u, znalezionych w moim kodzie.
+1.06.2017
+	Wczoraj: Zosta³o kilka b³êdów do poprawki.
+	Dziœ: ostatnie poprawki, Pisanie sprawozdania.
+2.06.2017
+	Wczoraj: Rozpoczêcie prac nad stworzeniem tekstu, zebranie danych z projektu.
+	Dziœ: Zakoñcznie sparwozdania, po³¹czenia wszytskiego w ca³oœæ.
+
+
+
+
+
+
+

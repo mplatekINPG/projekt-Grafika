@@ -32,3 +32,5 @@ Ostatnio udało mi się skończyć przykładowe menu, dziś będę zaczynał pra
 Wczoraj zacząłem pracę nad finalizacją projektu, dziś będę kontynuował wysiłki.
 	2017-05-31
 Wczoraj usiłowałem zaimplementować opcję wczytywania pliku z dowolnego miejsca w systemie, dziś będę ponawiał próby dodania tej opcji.
+	2017-05-02
+Wczoraj musiałem odrazu z rana wyjechać na 50 rocznice ślubu dziadków i cały dzień byłem bez komputera a jako, że nie miałem laptopa nie mogłem wykonać żadnej pracy. Dziś będę finalizował pracę nad projektem.
