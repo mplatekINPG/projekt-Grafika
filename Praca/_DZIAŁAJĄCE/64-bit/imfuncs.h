@@ -12,6 +12,6 @@ void insertionSort(int tablica[]);
 int sharpen(Mat image);
 int blur(Mat image);
 int contrast_change (Mat image);
-void ImageLoad (Mat *image);
+Mat ImageLoad (Mat image);
 void ImageSave (Mat *image);
 int sepia (Mat img);
