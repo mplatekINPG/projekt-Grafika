@@ -13,5 +13,5 @@ int sharpen(Mat image);
 int blur(Mat image);
 int contrast_change (Mat image);
 Mat ImageLoad ();
-void ImageSave (Mat *image);
+//void ImageSave (Mat *image);
 int sepia (Mat img);

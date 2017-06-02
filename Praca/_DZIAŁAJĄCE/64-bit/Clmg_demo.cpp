@@ -35,7 +35,7 @@ void start_item(const unsigned int demo_number, Mat image) {
   case 3: sharpen(image);/*FUNKCJA WYOSTRZANIA*/ break;
   case 4: contrast_change(image);/*FUNKCJA ZMIANY KONTRASTU*/ break;
   case 5: sepia(image);/*SEPIA*/ break;
-  case 6: ImageSave(&image);/*ZAPISYWANIE*/ break;
+  //case 6: ImageSave(&image);/*ZAPISYWANIE*/ break;
 
   default: break;
   }

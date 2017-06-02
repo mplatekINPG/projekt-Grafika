@@ -19,7 +19,7 @@ Mat ImageLoad ()
     return image;
 }
 
-void ImageSave (Mat * image);
+//void ImageSave (Mat * image);
 /*{
 	cout<<"Podaj nazwe nowego pliku\n";
 	char *name = new char[50];
