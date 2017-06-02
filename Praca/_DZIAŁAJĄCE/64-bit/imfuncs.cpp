@@ -107,7 +107,7 @@ int contrast_change (double change)
     imshow("final", new_image);
 	return 0;
 }
-int brightness_change(double change)
+int brigthness_change(double change)
 {
 	Mat image = ImageLoad();
 	Mat new_image = Mat::zeros( image.size(), image.type() ); 
