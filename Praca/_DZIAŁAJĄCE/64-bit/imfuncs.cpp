@@ -40,7 +40,9 @@ void insertionSort(int tablica[])
         tablica[j+1] = temp;
     }
 }
-int sharpen(Mat image){
+int sharpen(Mat image)
+{
+	Mat image = ImageLoad();
 	Mat kernel(3,3,CV_32F,cv::Scalar(0));	//rozmiar macierzy teorzacej baze filtra
 					//nalezy teraz ustaliæ wartoœci macierzy dla tworzonego filtra
 	kernel.at<double>(1,1)= 5.0;
@@ -60,6 +62,7 @@ int sharpen(Mat image){
 
 int blur(Mat image)
 {
+	Mat image = LoadImage();
     Mat next;
     if( !image.data )
     {
@@ -98,6 +101,7 @@ int blur(Mat image)
 
 int contrast_change (Mat image)
 {
+	Mat image = LoadImage();
 	Mat new_image = Mat::zeros( image.size(), image.type() ); 				//tworzenie nowego obrazu, wype³nionego zerami, o takim samym rozmiarze i typie jak wczytywany
 	double change;
 	cout<<"Prosze podac wartosc zmiany kontastu.\n";
@@ -123,7 +127,7 @@ int contrast_change (Mat image)
 }
 int sepia (Mat img)
 {
-
+Mat img = LoadImage();
 Mat_<float> sepia(3,3); 
 
 sepia << .131,.534,.272    //wartoœci najczesciej uzywane w uzyskiwaniu sepii

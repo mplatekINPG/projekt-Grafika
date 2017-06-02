@@ -9,9 +9,9 @@ using namespace std;
 using namespace cv;
 
 void insertionSort(int tablica[]);
-int sharpen(Mat image);
-int blur(Mat image);
-int contrast_change (Mat image);
+int sharpen();
+int blur();
+int contrast_change ();
 Mat ImageLoad ();
 //void ImageSave (Mat *image);
-int sepia (Mat img);
+int sepia ();
