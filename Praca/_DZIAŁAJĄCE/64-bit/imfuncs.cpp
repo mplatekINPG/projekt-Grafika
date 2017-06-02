@@ -62,7 +62,7 @@ int sharpen()
 
 int blur()
 {
-	Mat image = LoadImage();
+	Mat image = ImageLoad();
     Mat next;
     if( !image.data )
     {
@@ -101,7 +101,7 @@ int blur()
 
 int contrast_change ()
 {
-	Mat image = LoadImage();
+	Mat image = ImageLoad();
 	Mat new_image = Mat::zeros( image.size(), image.type() ); 				//tworzenie nowego obrazu, wype³nionego zerami, o takim samym rozmiarze i typie jak wczytywany
 	double change;
 	cout<<"Prosze podac wartosc zmiany kontastu.\n";
@@ -128,7 +128,7 @@ int contrast_change ()
 
 int sepia ()
 {
-Mat img = LoadImage();
+Mat img = ImageLoad();
 Mat_<float> sepia(3,3); 
 
 sepia << .131,.534,.272    //wartoœci najczesciej uzywane w uzyskiwaniu sepii
