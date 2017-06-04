@@ -60,7 +60,7 @@ void* item_blurring_gradient() {
 
 void start_item(const unsigned int demo_number) {
   switch (demo_number) {
-  case 1: wczytanie_obrazu; break;
+  case 1: wczytanie_obrazu(); break;
   case 2: blur();/*FUNKCJA ROZMYWANIA*/ break;
   case 3: sharpen();/*FUNKCJA WYOSTRZANIA*/ break;
   case 4: contrast_change(2.0);/*FUNKCJA ZMIANY KONTRASTU*/ break;
