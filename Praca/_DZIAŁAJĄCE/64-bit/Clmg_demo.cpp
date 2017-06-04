@@ -30,6 +30,16 @@ void* wczytanie_obrazu()
     ofn.nMaxFile = MAX_PATH;
     ofn.Flags = OFN_EXPLORER | OFN_FILEMUSTEXIST | OFN_HIDEREADONLY;
     ofn.lpstrDefExt = "bmp";
+	
+	if(GetOpenFileName(&ofn))
+    {
+      CImg<unsigned char> image(szFileName);
+      const unsigned char red[] = { 255,0,0 }, green[] = { 0,255,0 }, blue[] = { 0,0,255 };
+      CImgDisplay main_disp(image,"Click a point");
+        while (!main_disp.is_closed()) {
+        main_disp.wait();
+        }
+    }
 }	
 
 void* item_blurring_gradient() {
