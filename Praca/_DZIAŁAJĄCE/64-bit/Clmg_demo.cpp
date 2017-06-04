@@ -60,13 +60,13 @@ void* item_blurring_gradient() {
 
 void start_item(const unsigned int demo_number) {
   switch (demo_number) {
-  //case 1: image = ImageLoad(); /*WCZYTYWANIE OBRAZU */ /*item_blurring_gradient(); */ break;
-  case 1: blur();/*FUNKCJA ROZMYWANIA*/ break;
-  case 2: sharpen();/*FUNKCJA WYOSTRZANIA*/ break;
-  case 3: contrast_change(2.0);/*FUNKCJA ZMIANY KONTRASTU*/ break;
-  case 4: contrast_change(0.5); break;
-  case 5: sepia();/*SEPIA*/ break;
-  case 6: brigthness_change (50.0); break;
+  case 1: wczytanie_obrazu; break;
+  case 2: blur();/*FUNKCJA ROZMYWANIA*/ break;
+  case 3: sharpen();/*FUNKCJA WYOSTRZANIA*/ break;
+  case 4: contrast_change(2.0);/*FUNKCJA ZMIANY KONTRASTU*/ break;
+  case 5: contrast_change(0.5); break;
+  case 6: sepia();/*SEPIA*/ break;
+  case 7: brigthness_change (50.0); break;
   //case 6: ImageSave(&image);/*ZAPISYWANIE*/ break;
 
   default: break;
@@ -105,7 +105,7 @@ int main(int argc, char **argv) {
         fore(x,y,2) = (unsigned char)(val/1.1f);
       }
     text.draw_text(1,1,
-                   //"Wczytaj obraz\n"
+                   "Wczytaj obraz\n"
                    //"Blur\n"
                    "Rozmycie\n"
                    "Wyostrzenie\n"
