@@ -16,6 +16,11 @@ using namespace cimg_library;
 #undef min
 #undef max
 
+void* wczytanie_obrazu()
+{
+
+}	
+
 void* item_blurring_gradient() {
     CImg<unsigned char> image("lena.bmp"), visu(500,400,1,3,0);
   const unsigned char red[] = { 255,0,0 }, green[] = { 0,255,0 }, blue[] = { 0,0,255 };
