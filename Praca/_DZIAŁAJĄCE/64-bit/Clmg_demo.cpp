@@ -18,7 +18,18 @@ using namespace cimg_library;
 
 void* wczytanie_obrazu()
 {
+    OPENFILENAME ofn;
+    char szFileName[MAX_PATH] = "";
 
+    ZeroMemory(&ofn, sizeof(ofn));
+
+    ofn.lStructSize = sizeof(ofn);
+    ofn.hwndOwner = NULL;
+    ofn.lpstrFilter = "bmp Files (*.bmp)\0*.bmp\0All Files (*.*)\0*.*\0";
+    ofn.lpstrFile = szFileName;
+    ofn.nMaxFile = MAX_PATH;
+    ofn.Flags = OFN_EXPLORER | OFN_FILEMUSTEXIST | OFN_HIDEREADONLY;
+    ofn.lpstrDefExt = "bmp";
 }	
 
 void* item_blurring_gradient() {
