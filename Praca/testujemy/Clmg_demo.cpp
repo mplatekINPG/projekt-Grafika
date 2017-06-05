@@ -16,7 +16,7 @@ using namespace cimg_library;
 #undef min
 #undef max
 
-char* wczytanie_obrazu()
+void* wczytanie_obrazu()
 {
     OPENFILENAME ofn;
     char szFileName[MAX_PATH] = "";
@@ -35,12 +35,11 @@ char* wczytanie_obrazu()
     {
       CImg<unsigned char> image(szFileName);
       const unsigned char red[] = { 255,0,0 }, green[] = { 0,255,0 }, blue[] = { 0,0,255 };
-      CImgDisplay main_disp(image,"Click a point");
+      CImgDisplay main_disp(image,"Nothin'");
         while (!main_disp.is_closed()) {
         main_disp.wait();
         }
     }
-    return szFileName;
 }
 
 void* item_blurring_gradient() {
@@ -59,13 +58,13 @@ void* item_blurring_gradient() {
     }
 }
 
-void start_item(const unsigned int demo_number,char**filenaem) {
+void start_item(const unsigned int demo_number, Mat * image) {
   switch (demo_number) {
-    case 1: sepia(*filenaem);/*SEPIA*/ break;
-    case 2: sharpen(*filenaem);/*FUNKCJA WYOSTRZANIA*/ break;
-    case 3: blur(*filenaem);/*FUNKCJA WYOSTRZANIA*/ break;
-    case 5: *filenaem=wczytanie_obrazu(); break;
-    case 7: exit(0); break;
+    case 1: sepia(*image);/*SEPIA*/ break;
+    case 2: sharpen(*image);/*FUNKCJA WYOSTRZANIA*/ break;
+    case 3: blur(*image);/*FUNKCJA WYOSTRZANIA*/ break;
+    case 4: *image = LoadImage; break;
+    case 5: exit(0); break;
 
   //case 1: wczytanie_obrazu(); break;
   //case 2: blur();/*FUNKCJA ROZMYWANIA*/ break;
@@ -80,13 +79,11 @@ void start_item(const unsigned int demo_number,char**filenaem) {
   }
 }
 
-int main(int argc, char **argv) {
-
-//	Mat image;
-    char** filenaem;
-    *filenaem="lena.bmp";
+int main(int argc, char **argv) 
+{
+	Mat * image;
   unsigned int demo_number = cimg_option("-run",0,0);
-  if (demo_number) start_item(demo_number,filenaem);
+  if (demo_number) start_item(demo_number, image);
   else {
     cimg::info();
 
@@ -172,7 +169,7 @@ int main(int argc, char **argv) {
         if (disp.button()) { demo_number = 1 + (disp.mouse_y() - y0)/18; disp.set_button(); }
         disp.resize(disp,false).display(img).wait(25);
       }
-      start_item(demo_number,filenaem);
+      start_item(demo_number, image);
     }
   }
 
