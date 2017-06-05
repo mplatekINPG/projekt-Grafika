@@ -1,4 +1,4 @@
-08.05.2017
+﻿08.05.2017
 Dziś będę się uczył programowania w C++.
 Jutro nadal będę uczył się programowania w C++.
 
@@ -77,3 +77,6 @@ Dziś przeprowadzimy kolejną fazę testów naszego programu.
 02.06.2017
 Wczoraj przeprowadziliśmy kolejną fazę testów naszego programu.
 W poniedziałek oddamy w pełni funkcjonalny program wraz z najlepiej sporządzonym raportem w ręce naszego zleceniodawcy.
+
+05.06.2017
+próba działania
