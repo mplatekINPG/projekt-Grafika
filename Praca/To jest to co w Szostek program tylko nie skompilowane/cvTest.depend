@@ -92,7 +92,7 @@
 	<opencv2/core/core.hpp>
 	<opencv2/highgui/highgui.hpp>
 
-1496675662 source:c:\inpg grafika\projekt-grafika\praca\to jest to co w szostek program tylko nie skompilowane\clmg_demo.cpp
+1496680588 source:c:\inpg grafika\projekt-grafika\praca\to jest to co w szostek program tylko nie skompilowane\clmg_demo.cpp
 	"CImg_demo.h"
 	<windows.h>
 	<iostream>
@@ -170,7 +170,7 @@
 	<opencv2/core/core.hpp>
 	<opencv2/highgui/highgui.hpp>
 
-1496675719 source:c:\inpg grafika\projekt-grafika\praca\to jest to co w szostek program tylko nie skompilowane\imfuncs.cpp
+1496680368 source:c:\inpg grafika\projekt-grafika\praca\to jest to co w szostek program tylko nie skompilowane\imfuncs.cpp
 	<cstdlib>
 	<iostream>
 	<opencv2/opencv.hpp>

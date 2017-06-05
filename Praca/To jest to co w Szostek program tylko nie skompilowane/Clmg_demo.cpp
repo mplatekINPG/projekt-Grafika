@@ -2,8 +2,6 @@
 #include <windows.h>
 #include <iostream>
 
-
-
 #include "CImg.h"
 #include "imfuncs.h"
 using namespace cimg_library;
