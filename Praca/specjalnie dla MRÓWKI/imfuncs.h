@@ -9,10 +9,10 @@ using namespace std;
 using namespace cv;
 
 void insertionSort(int tablica[]);
-int sharpen();
-int blur();
-int contrast_change (double change);
-int brigthness_change(double change);
-Mat ImageLoad ();
+int sharpen(char* filenaem);
+int blur(char* filenaem);
+int contrast_change (double change,char* filenaem);
+int brigthness_change(double change,char* filenaem);
+Mat ImageLoad (char* filenaem);
 //void ImageSave (Mat *image);
-int sepia ();
+int sepia (char* filenaem);

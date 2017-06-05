@@ -16,7 +16,7 @@ using namespace cimg_library;
 #undef min
 #undef max
 
-void* wczytanie_obrazu()
+char* wczytanie_obrazu()
 {
     OPENFILENAME ofn;
     char szFileName[MAX_PATH] = "";
@@ -58,12 +58,12 @@ void* item_blurring_gradient() {
     }
 }
 
-void start_item(const unsigned int demo_number) {
+void start_item(const unsigned int demo_number,char*filenaem) {
   switch (demo_number) {
-    case 1: sepia();/*SEPIA*/ break;
-    case 2: sharpen();/*FUNKCJA WYOSTRZANIA*/ break;
-    case 3: blur();/*FUNKCJA WYOSTRZANIA*/ break;
-    case 5: wczytanie_obrazu(); break;
+    case 1: sepia(filenaem);/*SEPIA*/ break;
+    case 2: sharpen(filenaem);/*FUNKCJA WYOSTRZANIA*/ break;
+    case 3: blur(filenaem);/*FUNKCJA WYOSTRZANIA*/ break;
+    case 5: filenaem=wczytanie_obrazu(); break;
     case 7: exit(0); break;
 
   //case 1: wczytanie_obrazu(); break;
@@ -82,8 +82,9 @@ void start_item(const unsigned int demo_number) {
 int main(int argc, char **argv) {
 
 //	Mat image;
+    char* filenaem;
   unsigned int demo_number = cimg_option("-run",0,0);
-  if (demo_number) start_item(demo_number);
+  if (demo_number) start_item(demo_number,filenaem);
   else {
     cimg::info();
 
@@ -169,7 +170,7 @@ int main(int argc, char **argv) {
         if (disp.button()) { demo_number = 1 + (disp.mouse_y() - y0)/18; disp.set_button(); }
         disp.resize(disp,false).display(img).wait(25);
       }
-      start_item(demo_number);
+      start_item(demo_number,filenaem);
     }
   }
 

@@ -8,10 +8,10 @@
 using namespace std;
 using namespace cv;
 
-Mat ImageLoad ()
+Mat ImageLoad (char* filenaem)
 {
 	Mat image;
-	image = imread("lena.bmp", CV_LOAD_IMAGE_COLOR);
+	image = imread(filenaem, CV_LOAD_IMAGE_COLOR);
 	if ( !image.data )
 	{cout<<"BLAD WCZYTYWANIA";}
 	namedWindow("Color Image", WINDOW_AUTOSIZE);
@@ -40,9 +40,9 @@ void insertionSort(int tablica[])
         tablica[j+1] = temp;
     }
 }
-int sharpen()
+int sharpen(char* filenaem)
 {
-	Mat image = ImageLoad();
+	Mat image = ImageLoad(filenaem);
 	Mat kernel(3,3,CV_32F,cv::Scalar(0));	//rozmiar macierzy teorzacej baze filtra
 					//nalezy teraz ustaliæ wartoœci macierzy dla tworzonego filtra
 	kernel.at<double>(1,1)= 5.0;
@@ -59,9 +59,9 @@ int sharpen()
   waitKey(0);
   return 0;
 }
-int blur()
+int blur(char* filenaem)
 {
-	Mat Image = ImageLoad();
+	Mat Image = ImageLoad(filenaem);
     Mat new_image = Mat::zeros( Image.size(), Image.type() );
 
     blur( Image, new_image, Size( 5, 5 ), Point(-1,-1) );
@@ -70,26 +70,26 @@ int blur()
     return 0;
 }
 
-int contrast_change (double change)
+int contrast_change (double change, char* filenaem)
 {
-	Mat image = ImageLoad();
+	Mat image = ImageLoad(filenaem);
 	Mat new_image = Mat::zeros( image.size(), image.type() );
 	image.convertTo(new_image, -1, change, 0);
     imshow("final", new_image);
 	return 0;
 }
-int brigthness_change(double change)
+int brigthness_change(double change,char* filenaem)
 {
-	Mat image = ImageLoad();
+	Mat image = ImageLoad(filenaem);
 	Mat new_image = Mat::zeros( image.size(), image.type() );
 	image.convertTo(new_image, -1, 1, change);
     imshow("final", new_image);
 	return 0;
 }
 
-int sepia ()
+int sepia (char* filenaem)
 {
-Mat img = ImageLoad();
+Mat img = ImageLoad(filenaem);
 Mat_<float> sepia(3,3);
 
 sepia << .131,.534,.272    //wartoœci najczesciej uzywane w uzyskiwaniu sepii
