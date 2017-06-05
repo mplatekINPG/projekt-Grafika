@@ -84,7 +84,7 @@ int main(int argc, char **argv) {
 
 //	Mat image;
     char** filenaem;
-    *filenaem="lena.bmp"
+    *filenaem="lena.bmp";
   unsigned int demo_number = cimg_option("-run",0,0);
   if (demo_number) start_item(demo_number,filenaem);
   else {
