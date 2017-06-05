@@ -38,7 +38,7 @@ class ProcImg
     int SharpenIMG();
 };
 
-ProcImg::ProcIMG()
+ProcImg::ProcImg()
 {
     Mat limg;
     limg = imread("lena.bmp",CV_LOAD_IMAGE_COLOR);
@@ -109,5 +109,34 @@ int ProcImg::SharpenIMG()
 }
 int main{}
 {
-
+    ProcImg obraz;
+    int sterowanie 5;
+    double change =2;
+    while(sterowanie!=0)
+    {
+        cout << "Filtry:"<<endl<<"1 rozmycie"<<endl<<"2 kontrast"<<endl<<"3 wyostrz"<<endl<<"4 pokaz obrazka"<<endl<<"0 koniec"<<endl;
+        switch(sterowanie)
+        case 1:
+        {
+            obraz.BlurIMG();
+        }
+        case 2:
+        {
+            obraz.ContrIMG(double change);
+        }
+        case 3:
+        {
+            obraz.SharpenIMG();
+        }
+        case 4:
+        {
+            obraz.ShowIMG();
+        }
+        default:
+        {
+            cout<<"Prosze o numer z przedzialu"<<endl;
+        }
+        cin>>sterowanie;
+    }
+    return 0;
 }
