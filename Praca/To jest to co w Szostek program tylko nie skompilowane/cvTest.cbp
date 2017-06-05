@@ -38,8 +38,6 @@
 		<Unit filename="CImg.h" />
 		<Unit filename="CImg_demo.h" />
 		<Unit filename="Clmg_demo.cpp" />
-		<Unit filename="imfuncs.cpp" />
-		<Unit filename="imfuncs.h" />
 		<Unit filename="imfuncs.h.gch" />
 		<Unit filename="lena.bmp" />
 		<Extensions>

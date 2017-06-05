@@ -1,11 +1,10 @@
 #include "CImg_demo.h"
 #include <windows.h>
 #include <iostream>
-
-
+#include <cstdlib>
 
 #include "CImg.h"
-#include "imfuncs.h"
+//#include "imfuncs.h"
 using namespace cimg_library;
 
 #include <opencv2/opencv.hpp>
@@ -13,13 +12,17 @@ using namespace cimg_library;
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 
+using namespace std;
+using namespace cv;
+
 #undef min
 #undef max
+
+char szFileName[MAX_PATH] = "";
 
 void* wczytanie_obrazu()
 {
     OPENFILENAME ofn;
-    char szFileName[MAX_PATH] = "";
 
     ZeroMemory(&ofn, sizeof(ofn));
 
@@ -56,6 +59,59 @@ void* item_blurring_gradient() {
       visu.draw_graph(image.get_crop(0,y,0,2,image.width()-1,y,0,2),blue,1,1,0,255,0).display(draw_disp);
       }
     }
+}
+Mat ImageLoad ()
+{
+	Mat image;
+	image = imread(szFileName, CV_LOAD_IMAGE_COLOR);
+	if ( !image.data )
+	{cout<<"BLAD WCZYTYWANIA";}
+	namedWindow("Color Image", WINDOW_AUTOSIZE);
+    imshow("Color Image", image);
+    return image;
+}
+int sharpen()
+{
+	Mat image = ImageLoad();
+	Mat kernel(3,3,CV_32F,cv::Scalar(0));	//rozmiar macierzy teorzacej baze filtra
+					//nalezy teraz ustaliæ wartoœci macierzy dla tworzonego filtra
+	kernel.at<double>(1,1)= 5.0;
+	kernel.at<double>(0,1)= -1.0;
+	kernel.at<double>(2,1)= -1.0;
+	kernel.at<double>(1,0)= -1.0;
+	kernel.at<double>(1,2)= -1.0;
+
+			//filtrowanie obrazu
+	cv::filter2D(image,image,image.depth(),kernel);
+
+	namedWindow( "Sharpen5", WINDOW_AUTOSIZE );
+  imshow( "Sharpen5", image );
+  waitKey(0);
+  return 0;
+}
+int blur()
+{
+	Mat Image = ImageLoad();
+    Mat new_image = Mat::zeros( Image.size(), Image.type() );
+
+    blur( Image, new_image, Size( 5, 5 ), Point(-1,-1) );
+    imshow("Rozmycie", new_image);
+    waitKey(0);
+    return 0;
+}
+int sepia ()
+{
+Mat img = ImageLoad();
+Mat_<float> sepia(3,3);
+
+sepia << .131,.534,.272    //wartoœci najczesciej uzywane w uzyskiwaniu sepii
+        ,.168,.686,.349
+        ,.189,.769,.393;
+Mat out;
+cv::transform(img,out,sepia);
+imshow("i",out);
+waitKey();
+  return 0;
 }
 
 void start_item(const unsigned int demo_number) {
