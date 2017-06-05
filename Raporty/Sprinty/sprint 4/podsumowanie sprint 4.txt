@@ -1,0 +1,4 @@
+Sprint zosta³ wykonany w 90%. Po³¹czyliœmy wszystkie napisane funkcje, z³¹czyliœmy z dzia³aj¹cym interfejsem u¿ytkownika, otrzymuj¹c dzia³aj¹cy program.
+Najwiêcej problemów stworzy³o otwieranie obrazu z dowolnego miejsca, jednak i to uda³o siê pokonaæ. 
+Praca w tym tgodniu by³a dobrze zorganizowana i owocna. 
+Dodatkowo uda³o siê stworzyæ wstêpne sprawozdanie.
