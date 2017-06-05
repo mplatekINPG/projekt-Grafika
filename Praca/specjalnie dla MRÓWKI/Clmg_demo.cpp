@@ -40,6 +40,7 @@ char* wczytanie_obrazu()
         main_disp.wait();
         }
     }
+    return szFileName;
 }
 
 void* item_blurring_gradient() {
