@@ -178,6 +178,9 @@
 	<opencv2/core/core.hpp>
 	<opencv2/highgui/highgui.hpp>
 
+<<<<<<< HEAD
+1496686873 source:c:\users\miko³aj\desktop\tsfel\repozytorium\projekt-grafika\praca\specjalnie dla mrÓwki\imfuncs.cpp
+=======
 1496688231 source:c:\inpg grafika\projekt-grafika\praca\specjalnie dla mrÓwki\clmg_demo.cpp
 	"CImg_demo.h"
 	<windows.h>
@@ -257,6 +260,7 @@
 	<opencv2/highgui/highgui.hpp>
 
 1496687291 source:c:\inpg grafika\projekt-grafika\praca\specjalnie dla mrÓwki\imfuncs.cpp
+>>>>>>> 97e8660b87c1b27501fca8cdcaa481d4fd1d1e08
 	<cstdlib>
 	<iostream>
 	<opencv2/opencv.hpp>
