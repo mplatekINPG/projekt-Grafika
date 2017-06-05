@@ -78,5 +78,3 @@ Dziś przeprowadzimy kolejną fazę testów naszego programu.
 Wczoraj przeprowadziliśmy kolejną fazę testów naszego programu.
 W poniedziałek oddamy w pełni funkcjonalny program wraz z najlepiej sporządzonym raportem w ręce naszego zleceniodawcy.
 
-05.06.2017
-próba działania
