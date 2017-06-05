@@ -32,3 +32,18 @@ dzisiaj - zamierzam dobraæ argumenty do nowopowsta³ych funkcji.
 26-05-2017
 wczoraj - Dobra³em argumenty do funkcji
 dzisiaj - zamierzam przetestowaæ dzia³anie funkcji
+29-05-2017
+wczoraj - Zcommitowa³em funkcjê po³¹czone w jeden plik cpp
+dzisiaj - Przej¿ê kod w poszukiwaniu linijek które mo¿na zoptymalizowaæ
+30-05-2017
+wczoraj - Przej¿alem kod w poszukiwaniu inijek które mo¿na zoptymalizowaæ
+dzisiaj - skonsultujê siê z zespo³em pracuj¹cym nad sterowaniem, nad potrzebami zmian w funkcjach
+31-05-2017
+wczoraj - skonsultowa³em siê z zespo³em pracuj¹cym nad sterowaniem, nad potrzebami zmian w funkcjach
+dzisiaj -  dokona³em potrzebnymch zmian których domaga³ siê zespó³ pracuj¹cy nad sterowaniem
+01-06-2017
+wczoraj - dokona³em zmian w kodzie których wymaga³ zespó³ pracuj¹cy nad menu
+dzisiaj -  poszukam metod optymalizacji kodu w ramach dokonanych wczeœniej zmian
+02-06-2017
+wczoraj - wyszuka³em sposoby optymalizacji kodu funkcji
+dzisiaj - zoptymalizuje kod funkcji
