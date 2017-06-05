@@ -62,8 +62,9 @@ void start_item(const unsigned int demo_number) {
   switch (demo_number) {
     case 1: sepia();/*SEPIA*/ break;
     case 2: sharpen();/*FUNKCJA WYOSTRZANIA*/ break;
-    case 4: wczytanie_obrazu(); break;
-    case 6: exit(0); break;
+    case 3: blur();/*FUNKCJA WYOSTRZANIA*/ break;
+    case 5: wczytanie_obrazu(); break;
+    case 7: exit(0); break;
 
   //case 1: wczytanie_obrazu(); break;
   //case 2: blur();/*FUNKCJA ROZMYWANIA*/ break;
@@ -111,7 +112,8 @@ int main(int argc, char **argv) {
       }
     text.draw_text(1,1,
                    "Sepia\n"
-                   "Kontury\n\n"
+                   "Wykrywanie krawedzi\n"
+                   "Rozmycie\n\n"
                    "Wczytaj obraz\n\n"
                    "Wyjscie\n"
                    //"Wczytaj obraz\n"
@@ -150,7 +152,7 @@ int main(int argc, char **argv) {
         const unsigned char *ptrs = fore.data();
         cimg_for(img,ptrd,unsigned char) { const unsigned char val = *(ptrs++); if (val) *ptrd = val; }
         const int y = (disp.mouse_y() - y0)/18, _y = 18*y + y0 + 9;
-        if (y>=0 && y<2 || y==3 || y==5) {
+        if (y>=0 && y<3 || y==4 || y==6) {
           for (int yy = _y - 9; yy<=_y + 8; ++yy)
             img.draw_rectangle(0,yy,0,1,img.width() - 1,yy,0,1,(unsigned char)(130 - 14*cimg::abs(yy - _y)));
           img.draw_triangle(2,_y -  6,2,_y + 6,8,_y,yellow).

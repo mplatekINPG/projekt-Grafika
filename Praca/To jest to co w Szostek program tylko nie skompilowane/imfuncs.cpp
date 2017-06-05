@@ -43,19 +43,27 @@ void insertionSort(int tablica[])
 int sharpen()
 {
 	Mat image = ImageLoad();
-    Mat new_image = Mat::zeros( Image.size(), Image.type() );
-    namedWindow("Wyostrzenie", WINDOW_AUTOSIZE );
-    cv::addWeighted(image, 1.5, new_image, -0.5, 0, image);
-    imshow("Wyostrzenie", new_image);
-    waitKey(0);
-    return 0;
-}
+	Mat kernel(3,3,CV_32F,cv::Scalar(0));	//rozmiar macierzy teorzacej baze filtra
+					//nalezy teraz ustaliæ wartoœci macierzy dla tworzonego filtra
+	kernel.at<double>(1,1)= 5.0;
+	kernel.at<double>(0,1)= -1.0;
+	kernel.at<double>(2,1)= -1.0;
+	kernel.at<double>(1,0)= -1.0;
+	kernel.at<double>(1,2)= -1.0;
 
+			//filtrowanie obrazu
+	cv::filter2D(image,image,image.depth(),kernel);
+
+	namedWindow( "Sharpen5", WINDOW_AUTOSIZE );
+  imshow( "Sharpen5", image );
+  waitKey(0);
+  return 0;
+}
 int blur()
 {
 	Mat Image = ImageLoad();
     Mat new_image = Mat::zeros( Image.size(), Image.type() );
-    namedWindow("Rozmycie", WINDOW_AUTOSIZE );
+
     blur( Image, new_image, Size( 5, 5 ), Point(-1,-1) );
     imshow("Rozmycie", new_image);
     waitKey(0);
