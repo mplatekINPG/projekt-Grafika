@@ -15,9 +15,24 @@ class ProcImg
     void ContrIMG();
     void SharpenIMG();
 };
-ProcIMG()
+ProcImg::ProcIMG()
 {
-
+    Mat limg;
+    limg = imread("lena.bmp",CV_LOAD_IMAGE_COLOR);
+    if(!limg.data)
+    {
+        cout <<"Niepowodzeni przy wczytywaniu obraska" << endl;
+        return;
+    }
+    Image=limg;
+    namedWindow("Wczytany Obrazek",WINDOW_AUTOSIZE);
+    imshow("Wczytany Obrazek",Image);
+    waitKey(0);
+    destroyAllWindows();
+}
+ProcImg::ProcImg(const ProcImg &I)
+{
+    Image=I.Image;
 }
 int main{}
 {
