@@ -30,17 +30,17 @@ void* wczytanie_obrazu()
     ofn.nMaxFile = MAX_PATH;
     ofn.Flags = OFN_EXPLORER | OFN_FILEMUSTEXIST | OFN_HIDEREADONLY;
     ofn.lpstrDefExt = "bmp";
-	
+
 	if(GetOpenFileName(&ofn))
     {
       CImg<unsigned char> image(szFileName);
       const unsigned char red[] = { 255,0,0 }, green[] = { 0,255,0 }, blue[] = { 0,0,255 };
-      CImgDisplay main_disp(image,"Click a point");
+      CImgDisplay main_disp(image,"Projekt");
         while (!main_disp.is_closed()) {
         main_disp.wait();
         }
     }
-}	
+}
 
 void* item_blurring_gradient() {
     CImg<unsigned char> image("lena.bmp"), visu(500,400,1,3,0);
@@ -75,7 +75,7 @@ void start_item(const unsigned int demo_number) {
 
 int main(int argc, char **argv) {
 
-//	Mat image; 
+//	Mat image;
   unsigned int demo_number = cimg_option("-run",0,0);
   if (demo_number) start_item(demo_number);
   else {
@@ -114,7 +114,7 @@ int main(int argc, char **argv) {
                    "Sepia\n"
 				   "Zwiekszenie jasnosci\n"
                    //"Zapisz obraz\n"
-    
+
           ,
                    white,0,1,18).resize(-100,-100,1,3);
     fore.resize(back,0).draw_image(20,y0 + 3*13,text|=text.get_dilate(3)>>4);
