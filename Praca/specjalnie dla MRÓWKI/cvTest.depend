@@ -178,3 +178,11 @@
 	<opencv2/core/core.hpp>
 	<opencv2/highgui/highgui.hpp>
 
+1496686873 source:c:\users\miko≥aj\desktop\tsfel\repozytorium\projekt-grafika\praca\specjalnie dla mr”wki\imfuncs.cpp
+	<cstdlib>
+	<iostream>
+	<opencv2/opencv.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+
