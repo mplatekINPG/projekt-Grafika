@@ -16,7 +16,7 @@ using namespace cimg_library;
 #undef min
 #undef max
 
-char** wczytanie_obrazu()
+char* wczytanie_obrazu()
 {
     OPENFILENAME ofn;
     char szFileName[MAX_PATH] = "";
@@ -40,7 +40,7 @@ char** wczytanie_obrazu()
         main_disp.wait();
         }
     }
-    return *szFileName;
+    return szFileName;
 }
 
 void* item_blurring_gradient() {
@@ -64,7 +64,7 @@ void start_item(const unsigned int demo_number,char**filenaem) {
     case 1: sepia(*filenaem);/*SEPIA*/ break;
     case 2: sharpen(*filenaem);/*FUNKCJA WYOSTRZANIA*/ break;
     case 3: blur(*filenaem);/*FUNKCJA WYOSTRZANIA*/ break;
-    case 5: filenaem=wczytanie_obrazu(); break;
+    case 5: *filenaem=wczytanie_obrazu(); break;
     case 7: exit(0); break;
 
   //case 1: wczytanie_obrazu(); break;
